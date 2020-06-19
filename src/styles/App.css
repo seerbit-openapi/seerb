@@ -1,13 +1,35 @@
-.App {
-  text-align: center;
+html,
+body {
+  height: 100%;
+  background-color: #f0f2f7;
 }
 
+.App-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
+.label {
+  margin-bottom: 60px;
+}
 
+.payment-data {
+  font-size: 13px;
+}
+
+.header {
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,30 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto 0;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-input[type=text], 
-input[type=date], 
-input[type=tel],
-input[type=email] {
-  border: none;
-  width: 100%;
-  border-bottom: 2px solid #eed442;
-}
-
-input:focus {
-  outline:none;
 }
