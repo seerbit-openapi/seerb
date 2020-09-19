@@ -88,13 +88,13 @@ export const brands = [
 
 export const studies = [
   {
-    images: "",
+    images: "payHospital.svg",
     title: "Pre-authorization Payments for Hospitality",
     short_description:
       "The travel industry is known to be challenging – volume dependent, thin margins, price sensitive, variation of demanding customers and its vulnerability to fraudulent activities."
   },
   {
-    images: "",
+    images: "payResturants.svg",
     title: "Streamlining Payments for Resturants",
     short_description:
       "TAs the dinning scene in restaurants is changing, restaurant owners are looking for ways to increase efficiency and customer service experience by offering seamless payment options for its customers.",

@@ -26,7 +26,7 @@ body {
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
 }
 
@@ -36,4 +36,76 @@ body {
   font-family: HK-Grotesk !important;
   font-weight: bold;
   font-style: normal;
+  font-size: 1.15rem;
+}
+.btn-primary1 {
+  background-color: #283c7c !important;
+  border-color: #283c7c !important;
+  font-family: HK-Grotesk !important;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.15rem;
+  width: 200px;
+  color: #fff;
+}
+.font-35 {
+  font-size: 2.2rem;
+}
+.font-18 {
+  font-size: 1.15rem;
+}
+.font-16 {
+  font-size: 1rem;
+}
+.font-15 {
+  font-size: 0.93rem;
+}
+.font-20 {
+  font-size: 1.25rem;
+}
+.ln-height-26 {
+  line-height: 26px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0);
+}
+.color283 {
+  color: #283c7c;
+}
+.gray1 {
+  color: #00112c;
+}
+.gray2 {
+  color: #425563;
+}
+section {
+  display: block !important;
+  width: 100% !important;
+}
+@media only screen and (max-width: 600px) {
+  .font-35 {
+    font-size: 1.5rem;
+  }
+  .font-20 {
+    font-size: 1rem;
+  }
+  .font-30 {
+    font-size: 1.5rem !important;
+  }
+  .font-18 {
+    font-size: 1.05rem;
+  }
+}
+.font-30 {
+  font-size: 1.88rem;
+}
+.btn-white {
+  background-color: #fff !important;
+  border-color: #283c7c !important;
+  font-family: HK-Grotesk !important;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.15rem;
+  color: #283c7c !important;
+  width: 200px;
 }

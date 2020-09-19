@@ -8,14 +8,17 @@ export default function Footer() {
     <footer className="mb-0 pb-0">
       <Container>
         <Row className="footer-container">
-          <Col xs={6} sm={4} md={4} lg={2} className="">
-            <h5>Features</h5>
+          <Col xs={4} sm={4} md={4} lg={3} className="">
+            <div className="mb-3 font-weight-bold">Features</div>
             <ul className="list-unstyled text-small">
               <li className="py-2">
                 <Link to={"./"}>Pricing</Link>
               </li>
               <li className="py-2">
                 <Link to={"./"}>Payment Methods</Link>
+              </li>
+              <li className="py-2">
+                <Link to={"./"}>Libraries & Plugins</Link>
               </li>
               <li className="py-2">
                 <Link to={"./"}>Disputes</Link>
@@ -28,55 +31,87 @@ export default function Footer() {
               </li>
             </ul>
           </Col>
-          <Col xs={6} sm={4} md={4} lg={2}>
-            <h5>Knowledge Hub</h5>
+          <Col xs={4} sm={4} md={4} lg={3}>
+            <div className="mb-3 font-weight-bold">Knowledge Hub</div>
             <ul className="list-unstyled text-small">
               <li className="py-2">
-                <Link to={"./"}>Pricing</Link>
+                <Link to={"./"}>Get Started</Link>
               </li>
               <li className="py-2">
-                <Link to={"./"}>Payment Methods</Link>
+                <Link to={"./"}>Documentation</Link>
               </li>
               <li className="py-2">
-                <Link to={"./"}>Disputes</Link>
+                <Link to={"./"}>API Reference</Link>
               </li>
               <li className="py-2">
-                <Link to={"./"}>Refunds</Link>
+                <Link to={"./"}>Support</Link>
               </li>
               <li className="py-2">
-                <Link to={"./"}>Recurring Payments</Link>
+                <Link to={"./"}>Realease Notes</Link>
               </li>
             </ul>
           </Col>
-          <Col xs={6} sm={4} md={4} lg={2}>
-            <h5>Features</h5>
+          <Col xs={4} sm={12} md={4} lg={2} className="">
+            <div className="mb-3 font-weight-bold">Platform</div>
             <ul className="list-unstyled text-small">
               <li className="py-2">
-                <Link to={"./"}>Team</Link>
+                <Link to={"./"}>Privacy</Link>
               </li>
               <li className="py-2">
-                <Link to={"./"}>Team</Link>
+                <Link to={"./"}>Terms of service</Link>
               </li>
               <li className="py-2">
-                <Link to={"./"}>Team</Link>
+                <Link to={"./"}>Top Level Security</Link>
+              </li>
+              <li className="py-2">
+                <Link to={"./"}>Risk Management</Link>
+              </li>
+              <li className="py-2">
+                <Link to={"./"}>Fraud Prevention</Link>
+              </li>
+              <li className="py-2">
+                <Link to={"/blog"}>Blog</Link>
               </li>
             </ul>
           </Col>
-          <Col xs={12} sm={6} md={6} lg={6}>
-            <h5>Features</h5>
-            <ul className="list-unstyled text-small">
-              <li>
-                <Link to={"./"}>Team</Link>
-              </li>
-              <li>
-                <Link to={"./"}>Team</Link>
-              </li>
-              <li>
-                <Link to={"./"}>Team</Link>
-              </li>
-            </ul>
+          <Col xs={12} sm={12} md={6} lg={4}>
+            <div div className=" font-weight-bold">
+              Subcribe
+            </div>
+            <div className="input-group-prepend mb-4 pt-3 mt-4 ">
+              <input
+                type="text"
+                placeholder="Email"
+                className=" footer-input py-4 px-3 form-control"
+              />
+              <button className="btn  btn-footer-inpbtn" type="button">
+                {" "}
+                <img src={`/images/angleRight.svg`} alt="go" />{" "}
+              </button>
+            </div>
+            <div>
+              By submitting this form, you acknowledge that you have reviewed
+              the terms of our Privacy Statement and consent to the use of data
+              in accordance there with.
+            </div>
+            <div className="mt-4 pt-1">
+              <a href="">
+                <img src={`/images/linkedin.svg`} alt="linkedIn" />
+              </a>
+              <a href="" className="mx-4">
+                {" "}
+                <img src={`/images/instagram.svg`} alt="instagram" />
+              </a>
+              <a href="">
+                {" "}
+                <img src={`/images/twitter.svg`} alt="twitter" />
+              </a>
+            </div>
           </Col>
         </Row>
+        <div className="text-center py-5">
+          2020 SeerBit | All Rights Reserved
+        </div>
       </Container>
     </footer>
   );
