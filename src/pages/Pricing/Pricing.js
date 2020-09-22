@@ -179,10 +179,14 @@ export default function Pricing() {
               PCI-DSS certified payment processor.
             </div>
             <div className="lead font-20 mt-4">
-              <a className="btn btn-primary btn-lg" href="#" role="button">
+              <a
+                className="btn btn-primary btn-lg px-5 py-3"
+                href="#"
+                role="button"
+              >
                 Get Started
               </a>
-              <a href="" className="color283 ml-4">
+              <a href="" className="color283 ml-4 font-16">
                 Talk to us <img src={`/images/angleRight.svg`} alt="" />
               </a>
             </div>

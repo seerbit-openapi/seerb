@@ -17,14 +17,18 @@ export default function Home() {
                 seamless integration. SeerBit helps your business process online
                 payments from various channels across Africa.{" "}
               </p>
-              <p className="lead font-16">
-                <a className="btn btn-primary btn-lg" href="#" role="button">
+              <div className="lead font-16">
+                <a
+                  className="btn btn-primary btn-lg px-5 py-3"
+                  href="#"
+                  role="button"
+                >
                   Get Started
                 </a>
-                <a href="" className="color283 ml-4">
+                <a href="" className="color283 ml-4 font-16">
                   Talk to us <img src={`/images/angleRight.svg`} alt="" />
                 </a>
-              </p>
+              </div>
             </div>
           </div>
 
@@ -111,14 +115,18 @@ export default function Home() {
               customers isn't their problem. It's our pleasure.
             </p>
           </div>
-          <div className="row mx-0 px-0">
+          <div className="col-sm-12 col-md-6 col-lg-6 row  mx-0 px-0">
             {brands.map(data => (
-              <div className="col-sm-4 col-xs-4 col-md-4 col-lg-4 px-0">
+              <div className=" col-xs-6 col-md-4 col-lg-4 col-sm-6 mx-0 ">
                 <div className="">
-                  <img src={`/images/${data.logo}`} alt="secure_payment" />
+                  <img
+                    src={`/images/${data.logo}`}
+                    alt="secure_payment"
+                    width="50"
+                  />
                 </div>
               </div>
-            ))}{" "}
+            ))}
           </div>
         </div>
       </section>
@@ -158,10 +166,14 @@ export default function Home() {
               PCI-DSS certified payment processor.
             </div>
             <div className="lead font-20 mt-4">
-              <a className="btn btn-primary btn-lg" href="#" role="button">
+              <a
+                className="btn btn-primary btn-lg px-5 py-3"
+                href="#"
+                role="button"
+              >
                 Get Started
               </a>
-              <a href="" className="color283 ml-4">
+              <a href="" className="color283 ml-4 font-16">
                 Talk to us <img src={`/images/angleRight.svg`} alt="" />
               </a>
             </div>

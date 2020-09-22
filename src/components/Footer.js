@@ -11,22 +11,22 @@ export default function Footer() {
           <Col xs={4} sm={4} md={4} lg={3} className="">
             <div className="mb-3 font-weight-bold">Features</div>
             <ul className="list-unstyled text-small">
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Pricing</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Payment Methods</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Libraries & Plugins</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Disputes</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Refunds</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Recurring Payments</Link>
               </li>
             </ul>
@@ -34,19 +34,19 @@ export default function Footer() {
           <Col xs={4} sm={4} md={4} lg={3}>
             <div className="mb-3 font-weight-bold">Knowledge Hub</div>
             <ul className="list-unstyled text-small">
-              <li className="py-2">
+              <li className=" footerlist">
                 <Link to={"./"}>Get Started</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Documentation</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>API Reference</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Support</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Realease Notes</Link>
               </li>
             </ul>
@@ -54,22 +54,22 @@ export default function Footer() {
           <Col xs={4} sm={12} md={4} lg={2} className="">
             <div className="mb-3 font-weight-bold">Platform</div>
             <ul className="list-unstyled text-small">
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Privacy</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Terms of service</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"./"}>Top Level Security</Link>
               </li>
-              <li className="py-2">
+              <li className=" footerlist">
                 <Link to={"./"}>Risk Management</Link>
               </li>
-              <li className="py-2">
+              <li className=" footerlist">
                 <Link to={"./"}>Fraud Prevention</Link>
               </li>
-              <li className="py-2">
+              <li className="footerlist">
                 <Link to={"/blog"}>Blog</Link>
               </li>
             </ul>

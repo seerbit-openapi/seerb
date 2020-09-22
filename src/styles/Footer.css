@@ -27,6 +27,16 @@ li a {
 .btn-footer-inpbtn {
   background-color: rgb(241, 239, 239);
   border-radius: 0px 2px 2px 0px;
+  width: 30px;
+  transition: width 0.2s !important;
+  transition-timing-function: ease-in-out !important;
+}
+.btn-footer-inpbtn:hover {
+  width: 80px;
+  transition: width 0.2s !important;
+  transition-timing-function: ease-in-out !important;
+
+  /* animation-duration: 50000s !important; */
 }
 @media only screen and (max-width: 600px) {
   .footer-container {
@@ -39,4 +49,17 @@ li a {
     color: #fff !important;
     font-size: 0.5rem !important;
   }
+}
+
+.footerlist > a:hover {
+  text-decoration-line: none !important;
+  color: rgb(106, 163, 209);
+  font-size: 1.05rem;
+}
+.footerlist > a {
+  vertical-align: middle !important;
+  margin: auto;
+}
+.footerlist {
+  height: 40px !important;
 }

@@ -18,12 +18,15 @@ export default function Header() {
         <img
           src="https://seerbit.com/images/logo.png"
           alt="Seerbit"
-          style={{ width: "80px", height: "25px" }}
+          style={{
+            width: "80px",
+            height: "25px"
+          }}
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto text-left" style={{ marginLeft: "auto" }}>
+        <Nav className="mr-auto text-left" style={{ marginLeft: "32%" }}>
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/features">Features</Nav.Link>
           <Nav.Link href="/pricing">Pricing</Nav.Link>

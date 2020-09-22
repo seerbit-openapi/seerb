@@ -36,7 +36,7 @@ body {
   font-family: HK-Grotesk !important;
   font-weight: bold;
   font-style: normal;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 .btn-primary1 {
   background-color: #283c7c !important;
@@ -44,9 +44,13 @@ body {
   font-family: HK-Grotesk !important;
   font-weight: bold;
   font-style: normal;
-  font-size: 1.15rem;
+  font-size: 1rem;
   width: 200px;
   color: #fff;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  position: relative;
+  bottom: 0px;
 }
 .font-35 {
   font-size: 2.2rem;
@@ -59,6 +63,9 @@ body {
 }
 .font-15 {
   font-size: 0.93rem;
+}
+.font-13 {
+  font-size: 0.82rem;
 }
 .font-20 {
   font-size: 1.25rem;
@@ -105,7 +112,12 @@ section {
   font-family: HK-Grotesk !important;
   font-weight: bold;
   font-style: normal;
-  font-size: 1.15rem;
+  font-size: 1rem;
+  padding-bottom: 8px;
+  padding-top: 8px;
+
   color: #283c7c !important;
   width: 200px;
+  position: relative !important;
+  bottom: 0px !important;
 }

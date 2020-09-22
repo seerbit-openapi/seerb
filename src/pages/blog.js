@@ -32,7 +32,7 @@ export default function Blog() {
       <section className="blog-list pb-5 mx-0">
         <BlogHeader />
         <div className="blog-list-div">
-          <div className="row px-0 mx-0  ">
+          <div className="row px-0 mx-0">
             {blogs.map(blog => (
               <div className="col-lg-4 col-sm-12 col-md-6 pb-5 pl-0 pr-5 blogdD mx-0">
                 <div className="imgDiv px-0 pb-4">
@@ -59,10 +59,14 @@ export default function Blog() {
               PCI-DSS certified payment processor.
             </div>
             <div className="lead font-20 mt-4">
-              <a className="btn btn-primary btn-lg" href="#" role="button">
+              <a
+                className="btn btn-primary btn-lg px-5 py-3"
+                href="#"
+                role="button"
+              >
                 Get Started
               </a>
-              <a href="" className="color283 ml-4">
+              <a href="" className="color283 ml-4 font-16">
                 Talk to us <img src={`/images/angleRight.svg`} alt="" />
               </a>
             </div>

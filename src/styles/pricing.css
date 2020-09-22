@@ -45,7 +45,7 @@
   background-color: #fff;
   width: 100%;
   top: -12vh !important;
-  height: 490px;
+  height: auto !important;
   border-top: 6px solid #9cc9f7;
   box-shadow: 0px 20px 30px rgba(138, 149, 158, 0.2);
 }
@@ -53,7 +53,7 @@
   padding: 80px 0 !important;
 }
 .intText {
-  height: 200px !important;
+  height: 70% !important;
 }
 .borderTop1 {
   border-top: 1px solid #d3d6d9 !important;
@@ -65,7 +65,7 @@
 .faqIndex {
   border-bottom: 2px solid #f1f4f8 !important;
 }
-
+/* 2880 * 1800 */
 @media only screen and (max-width: 600px) {
   .blogdD {
     align-items: center !important;
