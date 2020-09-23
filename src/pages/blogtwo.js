@@ -1,6 +1,6 @@
 import React from "react";
 import { blogs } from "../data/pricing";
-import "../styles/blog.css";
+// import "../styles/blog.css";
 export default function BlogDetail() {
   let shuffledItems = blogs.sort(() => Math.random() - 0.5);
   let reducedBlogs = shuffledItems.slice(0, 3);
@@ -16,7 +16,7 @@ export default function BlogDetail() {
         </div>
 
         <div className="pb-5">
-          <img src={`/images/3dsecure.svg`} alt="" />
+          <img src={`/images/3dsecure.svg`} alt="" className="w-100" />
         </div>
         <div className="font-20 gray1">
           <p>
@@ -61,7 +61,7 @@ export default function BlogDetail() {
         </div>
       </section>
 
-      <section className="blog-list py-5">
+      <section className="blog-keep-reading py-5">
         <div className="font-weight-bold font-35 py-3 mb-5">
           Keeping Reading Porpular Articles
         </div>

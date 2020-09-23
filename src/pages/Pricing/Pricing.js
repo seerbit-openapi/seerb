@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { blogs, faqs } from "../../data/pricing";
-import "../../styles/pricing.css";
 import RevealDrop from "./reveal";
 import styled from "styled-components";
 export default function Pricing() {
   return (
     <div className="container-fluid px-0 mx-0">
-      <section className="pricingSectionOne ">
+      <section className="pricingSectionOne">
         <div className="pricingIntro text-center">
           <div className="font-30 font-weight-bold">
             No hidden charges, no surprises.

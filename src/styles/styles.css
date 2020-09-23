@@ -1,0 +1,323 @@
+/* Blog && Pricing css */
+.blogSection1 {
+  padding: 70px 6%;
+  background-color: #fff;
+  text-align: justify;
+}
+
+.blog-list {
+  background-color: #ffff !important;
+  width: 100% !important;
+}
+.blog-list > .row {
+  padding: 0 6%;
+}
+.blog-list-div {
+  padding: 0 6%;
+}
+.blog-keep-reading {
+  padding: 0 4% 0 6%;
+  background-color: #ffff !important;
+  width: 100% !important;
+}
+.blogdD {
+  width: 100%;
+  align-items: center !important;
+}
+.imgDiv {
+  width: 100% !important;
+  align-self: center !important;
+}
+.imgDiv > img {
+  width: 100% !important;
+}
+.sectionOne {
+  padding: 80px 6%;
+}
+.pricingSectionOne {
+  padding: 80px 0%;
+}
+.input-group-prepend {
+  width: 100% !important;
+}
+.inpbtn {
+  border-radius: 2px 0 0 2px;
+  border: none !important;
+}
+.btn-inpbtn {
+  border-radius: 2px 0 0 2px;
+}
+.inpbtn::placeholder {
+  color: #425563;
+}
+.pricing-card {
+  background-color: #fff;
+  width: 100% !important;
+  padding: 0px 6%;
+}
+.cardShadow {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  top: -12vh !important;
+  height: auto !important;
+  border-top: 6px solid #9cc9f7;
+  box-shadow: 0px 20px 30px rgba(138, 149, 158, 0.2);
+}
+.pricingIntro {
+  padding: 80px 3% !important;
+}
+.intText {
+  height: 70% !important;
+}
+.borderTop1 {
+  border-top: 1px solid #d3d6d9 !important;
+  padding-top: 35px !important;
+}
+.payMethod {
+  border-right: 1px solid #d3d6d9;
+}
+.faqIndex {
+  border-bottom: 2px solid #f1f4f8 !important;
+}
+.blogSection2 {
+  padding: 70px 6% 70px 6%;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .blogdD {
+    align-items: center !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .cardShadow {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    top: -15vh !important;
+    height: auto !important;
+    border-top: 6px solid #9cc9f7;
+    box-shadow: 0px 20px 30px rgba(138, 149, 158, 0.2);
+    padding: 0 0 !important;
+  }
+
+  .intText {
+    height: auto !important;
+  }
+  .payMethod {
+    border-right: none !important;
+  }
+  .payMethod > a {
+    margin-bottom: 20px !important;
+  }
+  .borderTop {
+    border-top: 1px solid #d3d6d9 !important;
+    padding-top: 20px !important;
+  }
+  .borderTop1 {
+    border-top: 1px solid #d3d6d9 !important;
+    padding-top: 20px !important;
+  }
+
+  .intpay {
+    padding-left: 0 !important;
+  }
+  .faqs {
+    margin-left: 0 !important;
+  }
+  .blog-keep-reading {
+    padding: 0 6% 0 6% !important;
+  }
+}
+
+/* Home css */
+@font-face {
+  font-family: "HK-Grotesk";
+  src: local("HK-Grotesk"),
+    url(./fonts/hk-grotesk/HKGrotesk-ExtraBold.otf) format("opentype");
+}
+
+header {
+  font-family: Heebo;
+  line-height: 51px;
+  color: #00112c;
+  font-weight: bold;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.subheader {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+.title {
+  color: #283c7c;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.features-title {
+  font-weight: 700;
+  color: #00112c;
+}
+
+.features-body {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.headSection {
+  padding: 10% 6% 6.5% 6% !important;
+  width: 100% !important;
+}
+.fullglance {
+  padding: 6% 6% 6% 6% !important;
+  width: 100% !important;
+}
+.sectionPadding {
+  padding-top: 6%;
+  padding-bottom: 0%;
+  padding-left: 6%;
+  padding-right: 3.5%;
+}
+.headBox {
+  width: 90%;
+  background-color: rgba(24, 129, 199, 0.05);
+  height: 350px;
+}
+.intro {
+  background-color: #fff;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 6%;
+  padding-right: 5%;
+}
+.brands {
+  background-color: #fff;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 6%;
+  padding-right: 3%;
+}
+.headIntro {
+  width: 80% !important;
+}
+.getStarted {
+  padding-bottom: 8%;
+}
+@media only screen and (max-width: 600px) {
+  .brands {
+    background-color: #fff;
+    width: 100% !important;
+  }
+  .headBox {
+    width: 100%;
+    background-color: rgba(24, 129, 199, 0.05);
+    height: 250px !important;
+  }
+  .headIntro {
+    width: 100% !important;
+    padding-left: 0% !important;
+  }
+  .studiesList {
+    align-items: center !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .sectionPadding {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 6%;
+    padding-right: 5%;
+  }
+  .bizfullviewImg {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
+/* Header Css */
+.getstarted {
+  color: #000 !important;
+}
+
+/* Footer Css */
+footer {
+  display: "flex";
+  justify-content: flex-end;
+  background: #152148;
+  color: white;
+  margin-bottom: 0;
+}
+
+li a {
+  text-decoration: "none";
+  color: white;
+  font-weight: 300;
+}
+
+.footer-container {
+  padding: 5rem 0;
+}
+.footer-input {
+  background-color: #152148 !important;
+  color: #fff !important;
+  border: 1px solid #fff;
+  border-radius: 2px 0 0 2px;
+}
+.footer-input::placeholder {
+  color: #fff !important;
+}
+.btn-footer-inpbtn {
+  background-color: rgb(241, 239, 239);
+  border-radius: 0px 2px 2px 0px;
+  width: 30px;
+  transition: width 0.2s !important;
+  transition-timing-function: ease-in-out !important;
+}
+.btn-footer-inpbtn:hover {
+  width: 80px;
+  transition: width 0.2s !important;
+  transition-timing-function: ease-in-out !important;
+
+  /* animation-duration: 50000s !important; */
+}
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    font-size: 0.4rem !important;
+  }
+  h5 {
+    font-size: 0.7rem !important;
+  }
+  .footer-input::placeholder {
+    color: #fff !important;
+    font-size: 0.5rem !important;
+  }
+}
+
+.footerlist > a:hover {
+  text-decoration-line: none !important;
+  color: rgb(106, 163, 209);
+  font-size: 1.05rem;
+}
+.footerlist > a {
+  vertical-align: middle !important;
+  margin: auto;
+}
+.footerlist {
+  height: 40px !important;
+}

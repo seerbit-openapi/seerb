@@ -1,15 +1,12 @@
 import React from "react";
 import { blogs } from "../data/pricing";
-import "../styles/blog.css";
+// import "../styles/blog.css";
 import { BlogHeader } from "../components";
 export default function Blog() {
   return (
     <div className="container-fluid px-0 mx-0">
-      <section className="sectionOne row ">
-        <div
-          className="col-lg-4 col-sm-12"
-          style={{ width: "100%", margin: "left" }}
-        >
+      <section className="sectionOne">
+        <div className="" style={{ width: "100%", margin: "left" }}>
           <div className="font-weight-bold font-35">The SeerBit Blog Space</div>
           <div className="font-16 py-5 ln-height-26">
             Dive into the world of payment technology. Explore insights. And

@@ -4,6 +4,7 @@ export const features = [
     logo: "secure_payment.svg",
     title: "Secure Payment",
     link: "",
+    linkname: "Risk and Compliance page",
     short_description:
       "Our intuitive risk assessment proactively blocks fraudulent transactions, reducing fraud-related chargebacks for you. Our secure SDKs tokenize card payments to protect users."
   },
@@ -11,6 +12,7 @@ export const features = [
     id: 2,
     logo: "revenue.svg",
     title: "Revenue",
+    linkname: "Grow with SeerBit",
     link: "",
     short_description:
       "Our innovative payment options including recurrent payments, invoice splitting and USSD help to reduce failed payments and increase your revenue."
@@ -19,7 +21,9 @@ export const features = [
     id: 3,
     logo: "customization.svg",
     title: "Customised for You",
-    link: "",
+
+    linkname: "Learn more multiple payment options",
+    link: "https://google.com",
     short_description:
       "We tailor our payment solutions to the specifics of your business, so you can reach every single customer and expand into new markets"
   }
@@ -91,13 +95,16 @@ export const studies = [
     images: "payHospital.svg",
     title: "Pre-authorization Payments for Hospitality",
     short_description:
-      "The travel industry is known to be challenging – volume dependent, thin margins, price sensitive, variation of demanding customers and its vulnerability to fraudulent activities."
+      "The travel industry is known to be challenging – volume dependent, thin margins, price sensitive, variation of demanding customers and its vulnerability to fraudulent activities.",
+    link: "",
+    linkname: "Read case study"
   },
   {
     images: "payResturants.svg",
     title: "Streamlining Payments for Resturants",
     short_description:
       "TAs the dinning scene in restaurants is changing, restaurant owners are looking for ways to increase efficiency and customer service experience by offering seamless payment options for its customers.",
-    link: ""
+    link: "",
+    linkname: "Read case study"
   }
 ];
