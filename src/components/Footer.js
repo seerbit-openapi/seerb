@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+// import "../styles/Footer.css";
 
 export default function Footer() {
   return (
@@ -50,7 +51,7 @@ export default function Footer() {
               </li>
             </ul>
           </Col>
-          <Col xs={4} sm={12} md={4} lg={2} className="">
+          <Col xs={4} sm={4} md={4} lg={2} className="">
             <div className="mb-3 font-weight-bold">Platform</div>
             <ul className="list-unstyled text-small">
               <li className="footerlist">
@@ -73,7 +74,7 @@ export default function Footer() {
               </li>
             </ul>
           </Col>
-          <Col xs={12} sm={12} md={6} lg={4}>
+          <Col xs={12} sm={12} md={4} lg={4}>
             <div div className=" font-weight-bold">
               Subcribe
             </div>

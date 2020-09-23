@@ -254,7 +254,11 @@ header {
 .getstarted {
   color: #000 !important;
 }
-
+@media only screen and (max-width: 600px) {
+  .navmargin {
+    margin-left: 0% !important;
+  }
+}
 /* Footer Css */
 footer {
   display: "flex";
@@ -298,14 +302,14 @@ li a {
 }
 @media only screen and (max-width: 600px) {
   .footer-container {
-    font-size: 0.4rem !important;
+    font-size: 0.62rem !important;
   }
   h5 {
-    font-size: 0.7rem !important;
+    font-size: 0.9rem !important;
   }
   .footer-input::placeholder {
     color: #fff !important;
-    font-size: 0.5rem !important;
+    font-size: 0.63rem !important;
   }
 }
 
