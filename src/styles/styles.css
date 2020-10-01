@@ -131,29 +131,12 @@
   }
 }
 
-/* Home css */
+/* Home css 
 @font-face {
   font-family: "HK-Grotesk";
   src: local("HK-Grotesk"),
     url(./fonts/hk-grotesk/HKGrotesk-ExtraBold.otf) format("opentype");
-}
-
-header {
-  font-family: Heebo;
-  line-height: 51px;
-  color: #00112c;
-  font-weight: bold;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 35px;
-}
-
-.subheader {
-  font-family: Heebo;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 26px;
-}
+}*/
 
 .title {
   color: #283c7c;
@@ -162,7 +145,8 @@ header {
 }
 
 .features-title {
-  font-weight: 700;
+  font-family: FaktPro-SemiBold;
+  font-size: 22px;
   color: #00112c;
 }
 
@@ -170,6 +154,7 @@ header {
   font-style: normal;
   font-weight: normal;
   line-height: 26px;
+  color: #00112c;
 }
 
 .jumbotron {
@@ -226,7 +211,7 @@ header {
   }
   .headBox {
     width: 100%;
-    background-color: rgba(24, 129, 199, 0.05);
+    background-color: linear-gradient(35deg, rgb(0, 34, 255), rgb(0, 104, 255));
     height: 250px !important;
   }
   .headIntro {

@@ -66,19 +66,19 @@ export const products = [
 export const brands = [
   {
     id: 1,
-    logo: "ariga.svg"
+    logo: "betway.svg"
   },
   {
     id: 2,
-    logo: "nestle.svg"
+    logo: "betway.svg"
   },
   {
     id: 3,
-    logo: "peak.svg"
+    logo: "betway.svg"
   },
   {
     id: 4,
-    logo: "thankucash.svg"
+    logo: "betway.svg"
   },
   {
     id: 5,
@@ -86,7 +86,7 @@ export const brands = [
   },
   {
     id: 6,
-    logo: "nairabet.svg"
+    logo: "betway.svg"
   }
 ];
 

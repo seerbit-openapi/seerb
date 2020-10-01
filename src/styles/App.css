@@ -1,18 +1,36 @@
 @font-face {
-  font-family: "Heebo";
-  src: local("Heebo"),
-    url(./fonts/Heebo/static/Heebo-Regular.ttf) format("truetype");
+  font-family: "FaktPro-Light";
+  src: local("FaktPro-Light"),
+    url(./fonts/Seer/FaktPro-Light.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "HK-Grotesk";
-  src: local("HK-Grotesk"),
-    url(./fonts/hk-grotesk/HKGrotesk-Light.otf) format("opentype");
+  font-family: "FaktPro-Normal";
+  src: local("FaktPro-Normal"),
+    url(./fonts/Seer/FaktPro-Normal.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "FaktPro-SemiBold";
+  src: local("FaktPro-SemiBold"),
+    url(./fonts/Seer/FaktPro-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "FaktPro-Blond";
+  src: local("FaktPro-Blond"),
+    url(./fonts/Seer/FaktPro-Blond.ttf) format("truetype");
+}
+
+@media (min-width: 1250px) {
+  .container {
+    max-width: 1250px;
+  }
 }
 
 html,
 body {
-  font-family: Heebo;
+  font-family: FaktPro-Normal;
   height: 100%;
   background-color: #f0f2f7;
 }
@@ -33,7 +51,7 @@ body {
 .btn-primary {
   background-color: #283c7c !important;
   border-color: #283c7c !important;
-  font-family: HK-Grotesk !important;
+  font-family: FaktPro-Normal !important;
   font-weight: bold;
   font-style: normal;
   font-size: 1rem;
@@ -41,7 +59,7 @@ body {
 .btn-primary1 {
   background-color: #283c7c !important;
   border-color: #283c7c !important;
-  font-family: HK-Grotesk !important;
+  font-family: FaktPro-Normal !important;
   font-weight: bold;
   font-style: normal;
   font-size: 1rem;
@@ -52,6 +70,102 @@ body {
   position: relative;
   bottom: 0px;
 }
+
+.hero-btn {
+  width: 123px;
+  height: 39px;
+  background-color: #283c7c !important;
+  border-color: #283c7c !important;
+  font-size: 13px;
+  color: white;
+}
+
+.hero-btn:hover {
+  width: 123px;
+  height: 39px;
+  background-color: #354885 !important;
+  border-color: #354885 !important;
+  font-size: 13px;
+  color: white;
+}
+
+.talk-to-us {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.talk-to-us:hover {
+  font-size: 14px;
+  text-decoration: none;
+  background: linear-gradient(
+    to right,
+    midnightblue,
+    midnightblue 50%,
+    royalblue 50%
+  );
+  background-clip: text;
+  overflow: hidden;
+}
+
+/***
+
+a {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: royalblue;
+  
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none; 
+  
+}
+a:hover {
+  background-position: 0 100%;
+}
+
+/**/
+.hero-header {
+  font-family: FaktPro-SemiBold;
+  line-height: 58px;
+  color: #00112c;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.header {
+  font-family: FaktPro-SemiBold;
+  line-height: 50px;
+  color: #00112c;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-link {
+  font-family: FaktPro-Blond;
+  font-size: 16px;
+  color: #00112c;
+}
+
+.subheader {
+  font-family: FaktPro-Normal;
+  font-style: normal;
+  color: #00112c;
+  line-height: 30px;
+  font-size: 18px;
+}
+
 .font-35 {
   font-size: 2.2rem;
 }
@@ -83,7 +197,7 @@ body {
   color: #00112c;
 }
 .gray2 {
-  color: #425563;
+  color: #00112c;
 }
 section {
   display: block !important;
@@ -92,6 +206,7 @@ section {
 @media only screen and (max-width: 600px) {
   .font-35 {
     font-size: 1.5rem;
+    font-family: FaktPro-SemiBold;
   }
   .font-20 {
     font-size: 1rem;
@@ -109,7 +224,7 @@ section {
 .btn-white {
   background-color: #fff !important;
   border-color: #283c7c !important;
-  font-family: HK-Grotesk !important;
+  font-family: FaktPro-Normal !important;
   font-weight: bold;
   font-style: normal;
   font-size: 1rem;

@@ -6,11 +6,11 @@ export default function Header() {
     <Navbar
       bg=""
       expand="lg"
-      className="py-3  fixed-top"
+      className="py-3 fixed-top"
       style={{
-        backgroundColor: "#fff",
-        padding: "0 6%",
-        color: "#000 !important"
+        backgroundColor: "rgba(248, 249, 250, 0.95)",
+        padding: "0 8%"
+        /*color: "red"*/
       }}
     >
       <Navbar.Brand href="/">
@@ -18,8 +18,8 @@ export default function Header() {
           src="https://seerbit.com/images/logo.png"
           alt="Seerbit"
           style={{
-            width: "80px",
-            height: "25px"
+            width: "120px"
+            /*height: "25px"*/
           }}
         />
       </Navbar.Brand>
@@ -27,7 +27,10 @@ export default function Header() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav
           className="mr-auto text-left  navmargin"
-          style={{ marginLeft: "32%" }}
+          style={{
+            marginLeft: "5%",
+            color: "red"
+          }}
         >
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/features">Features</Nav.Link>
