@@ -4,13 +4,11 @@ import RevealDrop from "./reveal";
 import styled from "styled-components";
 export default function Pricing() {
   return (
-    <div className="container-fluid px-0 mx-0">
+    <div className="px-0 mx-0">
       <section className="pricingSectionOne">
         <div className="pricingIntro text-center">
-          <div className="font-30 font-weight-bold">
-            No hidden charges, no surprises.
-          </div>
-          <div className="pb-5 font-20 pt-2">
+          <div className="hero-header">No hidden charges, no surprises.</div>
+          <div className="subheader">
             See what you pay for every transaction.
           </div>
         </div>
@@ -49,7 +47,7 @@ export default function Pricing() {
                   </div>
                 </div>
                 <a
-                  className="btn btn-primary1 btn-lg mt-3"
+                  className="btn hero-btn px-2 py-2 mt-5"
                   href="#"
                   role="button"
                 >
@@ -88,7 +86,7 @@ export default function Pricing() {
                   </div>
                 </div>
                 <a
-                  className="btn btn-primary1 btn-lg mt-3"
+                  className="btn hero-btn px-2 py-2 mt-5"
                   href="#"
                   role="button"
                 >
@@ -109,7 +107,7 @@ export default function Pricing() {
                     business
                   </div>
                 </div>
-                <a className="btn btn-white btn-lg mt-3" href="#" role="button">
+                <a className="btn btn-white btn-lg mt-5" href="#" role="button">
                   Talk to sales
                 </a>
               </div>
@@ -140,14 +138,14 @@ export default function Pricing() {
             style={{
               backgroundColor: "#fff",
               position: "relative",
-              marginLeft: "40%",
+              marginLeft: "26%",
               marginBottom: "7rem"
             }}
-            className="container-fluid mt-4 faqs w-auto"
+            className="container mt-4 faqs w-auto text-center"
           >
             <div>
               {faqs.map((faq, i) => (
-                <div className=" faqIndex py-4 ">
+                <div className="faqIndex py-4 ">
                   <RevealDrop
                     data-index={i}
                     key={`faq_list+${i}`}
@@ -169,20 +167,14 @@ export default function Pricing() {
       <section className="blogSection2 ">
         <div className="text-center ">
           <div style={{ width: "100%", margin: "auto" }}>
-            <div className="gray1 font-weight-bold font-35">
-              Get the SeerBit Edge.
-            </div>
-            <div className="gray2 py-3 font-18">
+            <div className="header">Get the SeerBit Edge.</div>
+            <div className="subheader py-3">
               With SeerBit, you get all the flexibility that comes with an
               innovative <br /> online payment gateway and the security of a
               PCI-DSS certified payment processor.
             </div>
             <div className="lead font-20 mt-4">
-              <a
-                className="btn btn-primary btn-lg px-5 py-3"
-                href="#"
-                role="button"
-              >
+              <a className="btn hero-btn px-2 py-2" href="#" role="button">
                 Get Started
               </a>
               <a href="" className="color283 ml-4 font-16">

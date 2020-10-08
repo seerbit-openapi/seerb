@@ -1,11 +1,6 @@
 import React from "react";
-import { Header, Footer } from "../components";
+//import { Header, Footer } from "../components";
 
 export default function Features() {
-  return (
-    <>
-      <Header />
-      <Footer />
-    </>
-  );
+  return <div className=""></div>;
 }

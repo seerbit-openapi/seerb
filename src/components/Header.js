@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { Waypoint } from "react-waypoint";
 
 export default function Header() {
   return (
@@ -28,8 +29,7 @@ export default function Header() {
         <Nav
           className="mr-auto text-left  navmargin"
           style={{
-            marginLeft: "5%",
-            color: "red"
+            marginLeft: "5%"
           }}
         >
           <Nav.Link href="/">Home</Nav.Link>
@@ -37,10 +37,19 @@ export default function Header() {
           <Nav.Link href="/pricing">Pricing</Nav.Link>
           <Nav.Link href="/resources">Resources</Nav.Link>
           <Nav.Link href="/support">Support</Nav.Link>
-          <Nav.Link href="/login">Login</Nav.Link>
+          {/*<Nav.Link href="/login">Login</Nav.Link>*/}
         </Nav>
-        <a href="/getstarted" className="ml-auto pl-0 ml-0 getstarted">
-          Get Started with SeerBit
+        <a href="/contact-us" className="pl-0 ml-0 getstarted">
+          Contact us
+        </a>
+        <a
+          href="https://dashboard.seerbitapi.com/#/auth/login"
+          className="pl-0 ml-3 getstarted"
+        >
+          Login
+        </a>
+        <a href="/getstarted" className="pl-0 ml-3 btn header-btn px-2 py-2">
+          Get started with SeerBit
         </a>
       </Navbar.Collapse>
     </Navbar>

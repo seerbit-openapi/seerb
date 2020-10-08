@@ -8,7 +8,24 @@ export default function Footer() {
     <footer className="mb-0 pb-0">
       <Container>
         <Row className="footer-container">
-          <Col xs={4} sm={4} md={4} lg={3} className="">
+          <Col xs={4} sm={4} md={2} lg={2} className="">
+            <div className="mb-3 font-weight-bold">SeerBit</div>
+            <ul className="list-unstyled text-small">
+              <li className="footerlist">
+                <Link to={"./"}>About</Link>
+              </li>
+              <li className="footerlist">
+                <Link to={"./"}>Careers</Link>
+              </li>
+              <li className="footerlist">
+                <Link to={"./"}>Blog</Link>
+              </li>
+              <li className="footerlist">
+                <Link to={"./"}>Contact</Link>
+              </li>
+            </ul>
+          </Col>
+          <Col xs={4} sm={4} md={2} lg={2} className="">
             <div className="mb-3 font-weight-bold">Features</div>
             <ul className="list-unstyled text-small">
               <li className="footerlist">
@@ -31,7 +48,7 @@ export default function Footer() {
               </li>
             </ul>
           </Col>
-          <Col xs={4} sm={4} md={4} lg={3}>
+          <Col xs={4} sm={4} md={2} lg={2}>
             <div className="mb-3 font-weight-bold">Knowledge Hub</div>
             <ul className="list-unstyled text-small">
               <li className=" footerlist">
@@ -51,7 +68,7 @@ export default function Footer() {
               </li>
             </ul>
           </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className="">
+          <Col xs={4} sm={4} md={2} lg={2} className="">
             <div className="mb-3 font-weight-bold">Platform</div>
             <ul className="list-unstyled text-small">
               <li className="footerlist">

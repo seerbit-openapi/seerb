@@ -1,8 +1,8 @@
 /* Blog && Pricing css */
 .blogSection1 {
-  padding: 70px 6%;
+  padding: 70px 17%;
   background-color: #fff;
-  text-align: justify;
+  /* text-align: justify;*/
 }
 
 .blog-list {
@@ -65,7 +65,7 @@
   box-shadow: 0px 20px 30px rgba(138, 149, 158, 0.2);
 }
 .pricingIntro {
-  padding: 80px 3% !important;
+  padding: 130px 3% !important;
 }
 .intText {
   height: 70% !important;
@@ -79,6 +79,7 @@
 }
 .faqIndex {
   border-bottom: 2px solid #f1f4f8 !important;
+  width: 600px;
 }
 .blogSection2 {
   padding: 70px 6% 70px 6%;

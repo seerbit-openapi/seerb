@@ -1,7 +1,7 @@
 import React from "react";
 import { blogs } from "../data/pricing";
 // import "../styles/blog.css";
-export default function Paymet_Experiences_For_Travels_And_Tourism_Business() {
+export default function Streamlining_Payments_for_Resturants() {
   let shuffledItems = blogs.sort(() => Math.random() - 0.5);
   let reducedBlogs = shuffledItems.slice(0, 3);
   return (
@@ -9,44 +9,41 @@ export default function Paymet_Experiences_For_Travels_And_Tourism_Business() {
       <section className="blogSection1">
         <div className="blog_container">
           <div className="color283 font-15 pt-5">
-            <span>August 17, 2020 | </span> <span> 4 mins read </span>
+            <span>October 5, 2020 | </span> <span> 2 mins read </span>
           </div>
           <div className="header pt-2 mb-2">
             {" "}
-            PAYMENT EXPERIENCES FOR TRAVELS AND TOURISM BUSINESSES
+            STREAMLINING PAYMENTS FOR RESTURANTS
           </div>
           <div className="subheader mb-3">
-            The travel industry is known to be challenging – volume dependent,
-            thin margins, price sensitive, variation of demanding customers and
-            its vulnerability to fraudulent activities.
+            As the dinning scene in restaurants is changing, restaurant owners
+            are looking for ways to increase efficiency and customer service
+            experience by offering seamless payment options for its customers.
           </div>
 
           <div className="pb-5">
-            <img src={`/images/pre-auth.png`} alt="" className="w-100" />
+            <img src={`/images/payResturants.svg`} alt="" className="w-100" />
           </div>
           <div className="subheader">
             <p>
-              This is a fast moving industry and the demand from its customers
-              have grown a-lot more over time. Customers wants the best price
-              and seamless experience when making travel plans. Ensuring
-              businesses have a seamless and frictionless customer experience is
-              not an easy task in the travel tourism world as travelers are from
-              different places globally.{" "}
+              Dining experience isn’t just about the meal, it’s also about the
+              convenience and experience the customer faces during visits to the
+              restaurants or ordering meals from home. From the process of
+              ordering meals to checkout there are many difficulties customers
+              may experience that is why it is important to integrate with a
+              suitable payment partner that understands both the business and
+              its customers and a partner that keeps up with the latest payment
+              trends.
             </p>
             <p>
-              SeerBit is provides a payment gateway solution that allow
-              businesses collect payments in different currencies with our wide
-              variety of payment options (Pay with card, Pay with Transfer, Pay
-              with Bank Account and payments via digital wallets). Also included
-              in the payment channel for businesses in the travel industry is
-              allowing customers setup a payment plan which allows them pay for
-              a booking multiple times or them splitting the payments between
-              friends. With SeerBit’s flexibility, businesses we are able to
-              keep up with the rapidly changing landscape and meet up with the
-              future growing plans of the business. SeerBit offers a creative
-              solution, expert advices, transparency, flexibility and most
-              importantly we are committed in maintaining a long relationship
-              with businesses we partner with.
+              Adding SeerBit integrations to restaurant business value chain
+              enables the business to go completely cashless by offering an
+              offline payment system to its customers using USSD and QR payment
+              option ensuring the business can grow and scale quickly. All your
+              customer needs to make payment is a mobile phone and a bank
+              account domiciled in your country of residence. Ultimately SeerBit
+              provides a reliable and consistent payment gateway solution that
+              helps in growing businesses at a very reliable cost.
             </p>
           </div>
         </div>

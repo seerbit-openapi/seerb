@@ -1,26 +1,27 @@
 (window.webpackJsonpseerbit = window.webpackJsonpseerbit || []).push([
   [0],
   {
-    34: function(e, a, t) {
-      e.exports = t(51);
+    36: function(e, a, t) {
+      e.exports = t(53);
     },
-    39: function(e, a, t) {},
-    40: function(e, a, t) {},
-    49: function(e, a, t) {},
-    50: function(e, a, t) {},
-    51: function(e, a, t) {
+    41: function(e, a, t) {},
+    42: function(e, a, t) {},
+    51: function(e, a, t) {},
+    52: function(e, a, t) {},
+    53: function(e, a, t) {
       "use strict";
       t.r(a);
       var n = t(0),
         l = t.n(n),
         s = t(14),
         r = t.n(s),
-        o = (t(39), t(40), t(5)),
-        c = t(57),
-        i = t(58);
+        c = (t(41), t(42), t(6)),
+        o = t(59),
+        i = t(60);
+      t(43);
       function m() {
         return l.a.createElement(
-          c.a,
+          o.a,
           {
             bg: "",
             expand: "lg",
@@ -31,7 +32,7 @@
             }
           },
           l.a.createElement(
-            c.a.Brand,
+            o.a.Brand,
             { href: "/" },
             l.a.createElement("img", {
               src: "https://seerbit.com/images/logo.png",
@@ -39,17 +40,17 @@
               style: { width: "120px" }
             })
           ),
-          l.a.createElement(c.a.Toggle, {
+          l.a.createElement(o.a.Toggle, {
             "aria-controls": "basic-navbar-nav"
           }),
           l.a.createElement(
-            c.a.Collapse,
+            o.a.Collapse,
             { id: "basic-navbar-nav" },
             l.a.createElement(
               i.a,
               {
                 className: "mr-auto text-left  navmargin",
-                style: { marginLeft: "5%", color: "red" }
+                style: { marginLeft: "5%" }
               },
               l.a.createElement(i.a.Link, { href: "/" }, "Home"),
               l.a.createElement(i.a.Link, { href: "/features" }, "Features"),
@@ -69,10 +70,10 @@
           )
         );
       }
-      var d = t(54),
-        g = t(55),
-        u = t(56),
-        p = t(6);
+      var d = t(56),
+        g = t(57),
+        u = t(58),
+        p = t(3);
       function E() {
         return l.a.createElement(
           "footer",
@@ -85,7 +86,40 @@
               { className: "footer-container" },
               l.a.createElement(
                 u.a,
-                { xs: 4, sm: 4, md: 4, lg: 3, className: "" },
+                { xs: 4, sm: 4, md: 2, lg: 2, className: "" },
+                l.a.createElement(
+                  "div",
+                  { className: "mb-3 font-weight-bold" },
+                  "SeerBit"
+                ),
+                l.a.createElement(
+                  "ul",
+                  { className: "list-unstyled text-small" },
+                  l.a.createElement(
+                    "li",
+                    { className: "footerlist" },
+                    l.a.createElement(p.b, { to: "./" }, "About")
+                  ),
+                  l.a.createElement(
+                    "li",
+                    { className: "footerlist" },
+                    l.a.createElement(p.b, { to: "./" }, "Careers")
+                  ),
+                  l.a.createElement(
+                    "li",
+                    { className: "footerlist" },
+                    l.a.createElement(p.b, { to: "./" }, "Blog")
+                  ),
+                  l.a.createElement(
+                    "li",
+                    { className: "footerlist" },
+                    l.a.createElement(p.b, { to: "./" }, "Contact")
+                  )
+                )
+              ),
+              l.a.createElement(
+                u.a,
+                { xs: 4, sm: 4, md: 2, lg: 2, className: "" },
                 l.a.createElement(
                   "div",
                   { className: "mb-3 font-weight-bold" },
@@ -128,7 +162,7 @@
               ),
               l.a.createElement(
                 u.a,
-                { xs: 4, sm: 4, md: 4, lg: 3 },
+                { xs: 4, sm: 4, md: 2, lg: 2 },
                 l.a.createElement(
                   "div",
                   { className: "mb-3 font-weight-bold" },
@@ -166,7 +200,7 @@
               ),
               l.a.createElement(
                 u.a,
-                { xs: 4, sm: 4, md: 4, lg: 2, className: "" },
+                { xs: 4, sm: 4, md: 2, lg: 2, className: "" },
                 l.a.createElement(
                   "div",
                   { className: "mb-3 font-weight-bold" },
@@ -279,9 +313,9 @@
           )
         );
       }
-      function f() {
+      function v() {
         return l.a.createElement(
-          c.a,
+          o.a,
           {
             bg: "",
             expand: "lg",
@@ -294,11 +328,11 @@
               borderBottom: "1px solid #F3F6F9"
             }
           },
-          l.a.createElement(c.a.Toggle, {
+          l.a.createElement(o.a.Toggle, {
             "aria-controls": "basic-navbar-nav"
           }),
           l.a.createElement(
-            c.a.Collapse,
+            o.a.Collapse,
             { id: "basic-navbar-nav" },
             l.a.createElement(
               i.a,
@@ -337,7 +371,7 @@
           )
         );
       }
-      function v() {
+      function f() {
         return l.a.createElement(
           l.a.Fragment,
           null,
@@ -374,7 +408,7 @@
               "We tailor our payment solutions to the specifics of your business, so you can reach every single customer and expand into new markets"
           }
         ],
-        y = [
+        b = [
           {
             id: 1,
             logo: "dashboard_analytics.svg",
@@ -408,7 +442,7 @@
               "Get an overview of your business across multiple locations."
           }
         ],
-        b = [
+        y = [
           { id: 1, logo: "betway.svg" },
           { id: 2, logo: "betway.svg" },
           { id: 3, logo: "betway.svg" },
@@ -619,13 +653,13 @@
                   ),
                   l.a.createElement(
                     "p",
-                    { className: "subheader py-3 font-18" },
+                    { className: "subheader py-3" },
                     "We've designed our platform to allow you to see all payments across multiple channels on a single dashboard. It's never been so easy to track performance, optimize and grow."
                   ),
                   l.a.createElement(
                     "div",
                     { className: "row mx-0" },
-                    y.map(function(e) {
+                    b.map(function(e) {
                       return l.a.createElement(
                         "div",
                         {
@@ -643,7 +677,7 @@
                         ),
                         l.a.createElement(
                           "div",
-                          { className: "features-title py-3 font-16" },
+                          { className: "features-title py-3" },
                           e.title
                         ),
                         l.a.createElement(
@@ -670,12 +704,12 @@
                 { className: "col-sm-12 col-md-6 col-lg-6 pr-5 pl-0" },
                 l.a.createElement(
                   "div",
-                  { className: "header font-35" },
+                  { className: "header" },
                   "Brands that trust us..."
                 ),
                 l.a.createElement(
                   "p",
-                  { className: "subheader py-3 font-18" },
+                  { className: "subheader py-3" },
                   "It's easier to focus on building great products and services when payment works. For these companies, accepting money from their customers isn't their problem. It's our pleasure."
                 )
               ),
@@ -684,7 +718,7 @@
                 {
                   className: "col-sm-12 col-md-6 col-lg-6 row  mx-0 px-0 pt-5"
                 },
-                b.map(function(e) {
+                y.map(function(e) {
                   return l.a.createElement(
                     "div",
                     { className: " col-xs-6 col-md-4 col-lg-4 col-sm-6 mx-0 " },
@@ -711,7 +745,7 @@
               l.a.createElement("div", { className: "title" }, "Case Studies"),
               l.a.createElement(
                 "div",
-                { className: "header font-35" },
+                { className: "header" },
                 "The Impact of SeerBit."
               )
             ),
@@ -777,12 +811,12 @@
                 { style: { width: "100%", margin: "auto" } },
                 l.a.createElement(
                   "div",
-                  { className: "gray1 font-weight-bold font-35" },
+                  { className: "header" },
                   "Get the SeerBit Edge."
                 ),
                 l.a.createElement(
                   "div",
-                  { className: "gray2 py-3 font-18" },
+                  { className: "subheader py-3" },
                   "With SeerBit, you get all the flexibility that comes with an innovative ",
                   l.a.createElement("br", null),
                   " online payment gateway and the security of a PCI-DSS certified payment processor."
@@ -815,7 +849,7 @@
           )
         );
       }
-      var k = [
+      var x = [
           {
             id: 1,
             logo: "3dsecure.svg",
@@ -865,7 +899,7 @@
             read: "4 mins read "
           }
         ],
-        x = [
+        k = [
           {
             question: "Are there any hidden fees or monthly charges?",
             ans: "No",
@@ -893,16 +927,16 @@
             id: 5
           }
         ],
-        S = t(33),
+        S = t(35),
         I =
-          (t(49),
+          (t(51),
           function(e) {
             var a = e.header,
               t = e.children,
               s = e.open,
               r = void 0 !== s && s,
-              o = e.head,
-              c = Object(n.useRef)(),
+              c = e.head,
+              o = Object(n.useRef)(),
               i = Object(n.useState)(!1),
               m = Object(S.a)(i, 2),
               d = m[0],
@@ -927,12 +961,12 @@
                     }
                   },
                   l.a.cloneElement(a, {
-                    ref: c,
+                    ref: o,
                     src: d ? "/images/minusfaq.svg" : "/images/plusfaq.svg"
                   })
                 ),
-                console.log(o),
-                l.a.createElement("div", null, o)
+                console.log(c),
+                l.a.createElement("div", null, c)
               ),
               l.a.createElement(
                 "div",
@@ -1216,7 +1250,7 @@
                 l.a.createElement(
                   "div",
                   null,
-                  x.map(function(e, a) {
+                  k.map(function(e, a) {
                     return l.a.createElement(
                       "div",
                       { className: " faqIndex py-4 " },
@@ -1318,7 +1352,7 @@
         return l.a.createElement("div", null);
       }
       function _() {
-        var e = k
+        var e = x
           .sort(function() {
             return Math.random() - 0.5;
           })
@@ -1508,14 +1542,14 @@
           l.a.createElement(
             "section",
             { className: "blog-list pb-5 mx-0" },
-            l.a.createElement(f, null),
+            l.a.createElement(v, null),
             l.a.createElement(
               "div",
               { className: "blog-list-div" },
               l.a.createElement(
                 "div",
                 { className: "row px-0 mx-0" },
-                k.map(function(e) {
+                x.map(function(e) {
                   return l.a.createElement(
                     "div",
                     {
@@ -1595,24 +1629,24 @@
           )
         );
       }
-      t(50);
+      t(52);
       var L = function() {
         return l.a.createElement(
           n.Fragment,
           null,
           l.a.createElement(m, null),
           l.a.createElement(
-            o.c,
+            c.c,
             null,
-            l.a.createElement(o.a, { exact: !0, path: "/", component: w }),
-            l.a.createElement(o.a, { path: "/features", component: v }),
-            l.a.createElement(o.a, { path: "/login", component: R }),
-            l.a.createElement(o.a, { path: "/pricing", component: B }),
-            l.a.createElement(o.a, { path: "/features", component: v }),
-            l.a.createElement(o.a, { path: "/resources", component: T }),
-            l.a.createElement(o.a, { path: "/support", component: P }),
-            l.a.createElement(o.a, { path: "/blogdetail", component: _ }),
-            l.a.createElement(o.a, { path: "/blog", component: A })
+            l.a.createElement(c.a, { exact: !0, path: "/", component: w }),
+            l.a.createElement(c.a, { path: "/features", component: f }),
+            l.a.createElement(c.a, { path: "/login", component: R }),
+            l.a.createElement(c.a, { path: "/pricing", component: B }),
+            l.a.createElement(c.a, { path: "/features", component: f }),
+            l.a.createElement(c.a, { path: "/resources", component: T }),
+            l.a.createElement(c.a, { path: "/support", component: P }),
+            l.a.createElement(c.a, { path: "/blogdetail", component: _ }),
+            l.a.createElement(c.a, { path: "/blog", component: A })
           ),
           l.a.createElement(E, null)
         );
@@ -1634,6 +1668,6 @@
           });
     }
   },
-  [[34, 1, 2]]
+  [[36, 1, 2]]
 ]);
-//# sourceMappingURL=main.555058b3.chunk.js.map
+//# sourceMappingURL=main.17eb9860.chunk.js.map

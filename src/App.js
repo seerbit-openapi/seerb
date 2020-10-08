@@ -7,8 +7,10 @@ import {
   Pricing,
   Resources,
   Support,
-  BlogDetail,
-  Blog
+  Paymet_Experiences_For_Travels_And_Tourism_Business,
+  Streamlining_Payments_for_Resturants,
+  Blog,
+  Contact_us
 } from "./pages";
 import "./styles/App.css";
 import { Header, Footer } from "./components";
@@ -25,8 +27,16 @@ export default () => {
         <Route path="/features" component={Features} />
         <Route path="/resources" component={Resources} />
         <Route path="/support" component={Support} />
-        <Route path="/blogdetail" component={BlogDetail} />
+        <Route
+          path="/blog/Paymet_Experiences_For_Travels_And_Tourism_Business"
+          component={Paymet_Experiences_For_Travels_And_Tourism_Business}
+        />
+        <Route
+          path="/blog/Streamlining_Payments_for_Resturants"
+          component={Streamlining_Payments_for_Resturants}
+        />
         <Route path="/blog" component={Blog} />
+        <Route path="/contact-us" component={Contact_us} />
       </Switch>
       <Footer />
     </Fragment>

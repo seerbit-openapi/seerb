@@ -4,7 +4,7 @@ export const features = [
     logo: "secure_payment.svg",
     title: "Secure Payment",
     link: "",
-    linkname: "Risk and Compliance page",
+    linkname: "Risk and Compliance",
     short_description:
       "Our intuitive risk assessment proactively blocks fraudulent transactions, reducing fraud-related chargebacks for you. Our secure SDKs tokenize card payments to protect users."
   },
@@ -93,18 +93,18 @@ export const brands = [
 export const studies = [
   {
     images: "payHospital.svg",
-    title: "Pre-authorization Payments for Hospitality",
+    title: "PAYMENT EXPERIENCES FOR TRAVELS AND TOURISM BUSINESSES",
     short_description:
       "The travel industry is known to be challenging – volume dependent, thin margins, price sensitive, variation of demanding customers and its vulnerability to fraudulent activities.",
-    link: "",
+    link: "/blog/Paymet_Experiences_For_Travels_And_Tourism_Business",
     linkname: "Read case study"
   },
   {
     images: "payResturants.svg",
     title: "Streamlining Payments for Resturants",
     short_description:
-      "TAs the dinning scene in restaurants is changing, restaurant owners are looking for ways to increase efficiency and customer service experience by offering seamless payment options for its customers.",
-    link: "",
+      "As the dinning scene in restaurants is changing, restaurant owners are looking for ways to increase efficiency and customer service experience by offering seamless payment options for its customers.",
+    link: "/blog/Streamlining_Payments_for_Resturants",
     linkname: "Read case study"
   }
 ];
