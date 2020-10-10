@@ -112,7 +112,23 @@ body {
   font-size: 13px;
   color: white;
 }
+.contact-btn {
+  width: 600px;
+  height: 40px;
+  background-color: #283c7c !important;
+  border-color: #283c7c !important;
+  font-size: 13px;
+  color: white;
+}
 
+.contact-btn:hover {
+  width: 600px;
+  height: 40px;
+  background-color: #354885 !important;
+  border-color: #354885 !important;
+  font-size: 13px;
+  color: white;
+}
 .talk-to-us {
   font-size: 14px;
   font-weight: 500;

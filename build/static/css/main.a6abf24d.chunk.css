@@ -1,7 +1,6 @@
 .blogSection1 {
-  padding: 70px 6%;
+  padding: 70px 17%;
   background-color: #fff;
-  text-align: justify;
 }
 .blog-list {
   background-color: #fff !important;
@@ -67,7 +66,7 @@
   box-shadow: 0 20px 30px rgba(138, 149, 158, 0.2);
 }
 .pricingIntro {
-  padding: 80px 3% !important;
+  padding: 130px 3% !important;
 }
 .intText {
   height: 70% !important;
@@ -81,6 +80,7 @@
 }
 .faqIndex {
   border-bottom: 2px solid #f1f4f8 !important;
+  width: 600px;
 }
 .blogSection2 {
   padding: 70px 6%;
@@ -410,6 +410,11 @@ code {
     max-width: 1250px;
   }
 }
+@media (min-width: 1050px) {
+  .blog_container {
+    max-width: 1050px;
+  }
+}
 body,
 html {
   font-family: FaktPro-Normal;
@@ -459,6 +464,21 @@ html {
   background-color: #354885 !important;
   border-color: #354885 !important;
 }
+.header-btn {
+  background-color: #283c7c !important;
+  border-color: #283c7c !important;
+}
+.header-btn,
+.header-btn:hover {
+  width: 204px;
+  height: 39px;
+  font-size: 13px;
+  color: #fff;
+}
+.header-btn:hover {
+  background-color: #354885 !important;
+  border-color: #354885 !important;
+}
 .talk-to-us {
   font-size: 14px;
   font-weight: 500;
@@ -472,17 +492,27 @@ html {
   overflow: hidden;
 }
 .hero-header {
-  line-height: 58px;
-  font-size: 45px;
-}
-.header,
-.hero-header {
   font-family: FaktPro-SemiBold;
+  line-height: 58px;
   color: #00112c;
   font-style: normal;
+  font-size: 45px;
+}
+@media only screen and (max-width: 600px) {
+  .hero-header {
+    font-family: FaktPro-SemiBold;
+    font-weight: 800;
+    line-height: 38px;
+    color: #00112c;
+    font-style: normal;
+    font-size: 32px;
+  }
 }
 .header {
+  font-family: FaktPro-SemiBold;
   line-height: 50px;
+  color: #00112c;
+  font-style: normal;
   font-size: 32px;
 }
 .img-fluid {
@@ -568,4 +598,12 @@ section {
   position: relative !important;
   bottom: 0 !important;
 }
-/*# sourceMappingURL=main.ecd2f54d.chunk.css.map */
+.contact-us {
+  background-color: #fff;
+  padding: 80px 0;
+}
+.fg {
+  height: 50px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.a6abf24d.chunk.css.map */

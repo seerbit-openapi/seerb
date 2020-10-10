@@ -62,6 +62,45 @@ export default function Contact_us() {
                     required
                   />
                 </div>
+                <div className="form-group">
+                  <input
+                    type="text"
+                    className="form-control fg"
+                    name="company_name"
+                    id="company_name"
+                    placeholder="Company Name"
+                  />
+                </div>
+                <div className="form-group">
+                  <input
+                    type="text"
+                    className="form-control fg"
+                    name="website"
+                    id="website"
+                    placeholder="Website"
+                  />
+                </div>
+                <div className="form-group">
+                  <input
+                    type="text"
+                    className="form-control fg"
+                    name="phone_number"
+                    id="phone_number"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div className="form-group">
+                  <textarea
+                    type="textarea"
+                    className="form-control fg"
+                    name="message"
+                    id="message"
+                    placeholder="Tell us briefly about your business requirements"
+                  ></textarea>
+                </div>
+                <a className="btn contact-btn px-2 py-2" href="#" role="button">
+                  Send inquiry
+                </a>
               </form>
             </div>
           </div>
