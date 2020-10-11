@@ -1,0 +1,46 @@
+<header class="container-fluid story-content">
+  <div class="row story-header story-header--left">
+    <div class="inner-container">
+      <div class="row position-relative">
+        <div class="story-header__image-wrapper col-lg-9 offset-lg-3">
+          <div
+            class="story-header__image overlap-snap-to-right image--rounded"
+            style="background-image: url(/dam/jcr:d10a8c40-853f-4a84-b733-5629c98b7bcb/afp-introducing-platforms.jpg); background-size: cover; background-position: center;"
+          ></div>
+        </div>
+        <div
+          class="story-header__info-wrapper col-lg-6 offset-lg-0 col-md-8 offset-md-2"
+        >
+          <div class="row">
+            <div class="story-header__info col-lg-11">
+              <a
+                class="story-category-name story-category-name--link"
+                href="/blog/category/ecommerce"
+                >Ecommerce</a
+              >
+              <a
+                class="story-header__clickable"
+                href="/blog/how-platforms-are-tranforming-the-global-economy"
+              >
+                <h1>How platforms are transforming the global economy</h1>
+                <p class="story-text__introduction">
+                  From marketplaces to software as a service, here’s why this
+                  business model is revolutionizing the way the world buys
+                </p>
+              </a>
+              <div class="story-author">
+                <div class="align-self-center">
+                  <p class="story-text__small">
+                    <time datetime="Sep 3, 2020, 12:40:00 PM"
+                      >September 3, 2020</time
+                    ><span class="story__dot-prefixed">4 Minutes</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

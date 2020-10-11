@@ -10,6 +10,7 @@ import {
   Paymet_Experiences_For_Travels_And_Tourism_Business,
   Streamlining_Payments_for_Resturants,
   Blog,
+  Developers,
   Contact_us
 } from "./pages";
 import "./styles/App.css";
@@ -27,6 +28,7 @@ export default () => {
         <Route path="/features" component={Features} />
         <Route path="/resources" component={Resources} />
         <Route path="/support" component={Support} />
+        <Route path="/developers" component={Developers} />
         <Route
           path="/blog/Paymet_Experiences_For_Travels_And_Tourism_Business"
           component={Paymet_Experiences_For_Travels_And_Tourism_Business}

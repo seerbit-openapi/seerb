@@ -108,3 +108,49 @@ export const studies = [
     linkname: "Read case study"
   }
 ];
+
+export const devs = [
+  {
+    id: 1,
+    logo: "dashboard-layout.svg",
+    title: "Developer Dashboard",
+    link: "",
+    linkname: "Read API docs",
+    short_description:
+      "Create your developer account for free to get your API keys and start building right away."
+  },
+  {
+    id: 2,
+    logo: "notes.svg",
+    title: "Release Note",
+    linkname: "View release note",
+    link: "",
+    short_description:
+      "Detailed API documentation with everything you need to develop your card-linked apps."
+  },
+  {
+    id: 3,
+    logo: "online-support-2.svg",
+    title: "Support",
+
+    linkname: "Read support docs",
+    link: "https://google.com",
+    short_description:
+      "We're available to answer questions via our Slack developer channel or email."
+  }
+];
+
+export const easy = [
+  {
+    id: 1,
+    logo: "wordpress.png"
+  },
+  {
+    id: 2,
+    logo: "magento.png"
+  },
+  {
+    id: 3,
+    logo: "wix.png"
+  }
+];

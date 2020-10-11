@@ -6,8 +6,8 @@ export default function Contact_us() {
     <>
       <section className="contact-us">
         <div className="container">
-          <div className="row mt-5">
-            <div className="col-6">
+          <div className="row mt-5 mt-md-7">
+            <div className="col-12 col-md-6">
               <div className="header">
                 In need of a payment solution for your business?
               </div>
@@ -30,7 +30,7 @@ export default function Contact_us() {
               </div>
             </div>
 
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <form>
                 <div class="row">
                   <div className="form-group col-sm-6">
@@ -95,12 +95,18 @@ export default function Contact_us() {
                     className="form-control fg"
                     name="message"
                     id="message"
-                    placeholder="Tell us briefly about your business requirements"
+                    placeholder="I'm interested in using seerbit to:"
                   ></textarea>
                 </div>
-                <a className="btn contact-btn px-2 py-2" href="#" role="button">
-                  Send inquiry
-                </a>
+                <div className="form-group">
+                  <a
+                    className="btn contact-btn px-2 py-2"
+                    href="#"
+                    role="button"
+                  >
+                    Send inquiry
+                  </a>
+                </div>
               </form>
             </div>
           </div>

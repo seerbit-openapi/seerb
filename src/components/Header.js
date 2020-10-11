@@ -35,7 +35,7 @@ export default function Header() {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/features">Features</Nav.Link>
           <Nav.Link href="/pricing">Pricing</Nav.Link>
-          <Nav.Link href="/resources">Resources</Nav.Link>
+          <Nav.Link href="/developers">Developers</Nav.Link>
           <Nav.Link href="/support">Support</Nav.Link>
           {/*<Nav.Link href="/login">Login</Nav.Link>*/}
         </Nav>
