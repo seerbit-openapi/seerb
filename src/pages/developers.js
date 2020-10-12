@@ -1,6 +1,6 @@
 import React from "react";
 import { blogs } from "../data/pricing";
-import { devs, brands, easy } from "../data/home";
+import { devs, brands, easy, features, security } from "../data/home";
 // import "../styles/blog.css";
 export default function Developers() {
   return (
@@ -153,13 +153,40 @@ export default function Developers() {
                   <div className="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
                     <img
                       src={`/images/${data.logo}`}
-                      alt="secure_payment"
+                      alt="plugins"
                       width="150"
                     />
                   </div>
                 </div>
               ))}
             </div>
+          </div>
+          <hr className="mt-5 mb-0" />
+        </div>
+      </section>
+      <section className="intro">
+        <div className="container">
+          <div className=" col-lg-5 col-md-6 col-sm-12 px-0">
+            <div className="header">
+              Protect yourself and your customers with advanced fraud detection
+            </div>
+          </div>
+          <div className="py-3 row mx-0 ">
+            {security.map(data => (
+              <div className="col-sm-12 col-md-6 col-lg-4 pl-0 pr-5">
+                <div className="px-0 mx-0">
+                  <img
+                    src={`/images/${data.logo}`}
+                    alt="secure_payment"
+                    width="50"
+                  />
+                </div>
+                <div className="features-title py-3">{data.title}</div>
+                <div className="features-body font-16">
+                  {data.short_description}
+                </div>
+              </div>
+            ))}{" "}
           </div>
         </div>
       </section>

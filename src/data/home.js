@@ -143,7 +143,8 @@ export const devs = [
 export const easy = [
   {
     id: 1,
-    logo: "wordpress.png"
+    logo: "wordpress.png",
+    link: "https://wordpress.org/plugins/infobvandevliet-nl/"
   },
   {
     id: 2,
@@ -152,5 +153,32 @@ export const easy = [
   {
     id: 3,
     logo: "wix.png"
+  }
+];
+
+export const security = [
+  {
+    id: 1,
+    logo: "tick.svg",
+    title: "Secure Tokenisation",
+
+    short_description:
+      "We developed our own card tokenisation and we don’t store any card numbers."
+  },
+  {
+    id: 2,
+    logo: "tick.svg",
+    title: "End-to-End Encyrption",
+
+    short_description:
+      "All data transmitted to and from the API is encrypted by default. No additional steps necessary."
+  },
+  {
+    id: 3,
+    logo: "tick.svg",
+    title: "PCI Compliance Level 1",
+
+    short_description:
+      "We take on the burden of PCI compliance, which means you don’t have to worry about external audits or data breach fines."
   }
 ];

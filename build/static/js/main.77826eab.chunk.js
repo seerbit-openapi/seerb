@@ -11,15 +11,15 @@
     53: function(e, a, t) {
       "use strict";
       t.r(a);
-      var n = t(0),
-        l = t.n(n),
+      var l = t(0),
+        n = t.n(l),
         s = t(14),
         r = t.n(s),
         c = (t(41), t(42), t(6));
       function m() {
-        return l.a.createElement("div", { className: "" });
+        return n.a.createElement("div", { className: "" });
       }
-      var i = [
+      var o = [
           {
             id: 1,
             logo: "secure_payment.svg",
@@ -48,7 +48,7 @@
               "We tailor our payment solutions to the specifics of your business, so you can reach every single customer and expand into new markets"
           }
         ],
-        o = [
+        i = [
           {
             id: 1,
             logo: "dashboard_analytics.svg",
@@ -107,62 +107,96 @@
             link: "/blog/Streamlining_Payments_for_Resturants",
             linkname: "Read case study"
           }
+        ],
+        p = [
+          {
+            id: 1,
+            logo: "dashboard-layout.svg",
+            title: "Developer Dashboard",
+            link: "",
+            linkname: "Read API docs",
+            short_description:
+              "Create your developer account for free to get your API keys and start building right away."
+          },
+          {
+            id: 2,
+            logo: "notes.svg",
+            title: "Release Note",
+            linkname: "View release note",
+            link: "",
+            short_description:
+              "Detailed API documentation with everything you need to develop your card-linked apps."
+          },
+          {
+            id: 3,
+            logo: "online-support-2.svg",
+            title: "Support",
+            linkname: "Read support docs",
+            link: "https://google.com",
+            short_description:
+              "We're available to answer questions via our Slack developer channel or email."
+          }
+        ],
+        g = [
+          { id: 1, logo: "wordpress.png" },
+          { id: 2, logo: "magento.png" },
+          { id: 3, logo: "wix.png" }
         ];
-      function p() {
-        return l.a.createElement(
+      function E() {
+        return n.a.createElement(
           "div",
           null,
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "headSection" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "row align-items-center" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   {
                     className:
                       "col-12 col-md-5 col-lg-6 order-md-2 pt-5 pt-md-0 pb-4 pb-md-0"
                   },
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "" },
-                    l.a.createElement("img", {
+                    n.a.createElement("img", {
                       className: "img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0",
                       src:
                         "https://www.adyen.com/dam/jcr:7944b75c-5410-41ab-831a-a6efd414eb26/woman-paying-with-phone-in-store.jpg"
                     })
                   )
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   {
                     class: "col-12 col-md-7 col-lg-6 order-md-1",
                     "data-aos": "fade-up"
                   },
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "hero-header" },
                     "The only payment",
-                    l.a.createElement("br", null),
+                    n.a.createElement("br", null),
                     "gateway your business needs"
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "p",
                     { className: "subheader py-3" },
                     "Accept online payments from multiple methods in one single,",
-                    l.a.createElement("br", null),
+                    n.a.createElement("br", null),
                     "seamless integration.",
                     " ",
                     " "
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "lead font-16" },
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       {
                         className: "btn hero-btn px-2 py-2",
@@ -171,12 +205,12 @@
                       },
                       "Get Started"
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       { href: "", className: "color283 ml-4 talk-to-us" },
                       "Talk to us",
                       " ",
-                      l.a.createElement("img", {
+                      n.a.createElement("img", {
                         src: "/images/angleRight.svg",
                         alt: "",
                         className: "ml-2"
@@ -188,67 +222,67 @@
             )
           ),
           " ",
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "intro" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: " col-lg-5 col-md-6 col-sm-12 px-0" },
-                l.a.createElement(
+                n.a.createElement(
                   "p",
                   { className: "title font-16 font-weight-bold" },
                   "Why Seerbit"
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "header" },
                   "Tailored Payments Solutions for your business."
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "p",
                   { className: "subheader py-3" },
                   "At SeerBit, We have a range of payment methods to cater to every business. We don't just throw you a bouquet of solutions you don't need. We walk with you to tailor your payment options and give you exactly what you and your shoppers need."
                 )
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "py-3 row mx-0 " },
-                i.map(function(e) {
-                  return l.a.createElement(
+                o.map(function(e) {
+                  return n.a.createElement(
                     "div",
                     { className: "col-sm-12 col-md-6 col-lg-4 pl-0 pr-5" },
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "px-0 mx-0" },
-                      l.a.createElement("img", {
+                      n.a.createElement("img", {
                         src: "/images/".concat(e.logo),
                         alt: "secure_payment",
                         width: "50"
                       })
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "features-title py-3" },
                       e.title
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "features-body font-16" },
                       e.short_description
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       { href: e.link, className: "color283 ml-4 font-16" },
                       " ",
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         null,
                         e.linkname,
                         " ",
-                        l.a.createElement("img", {
+                        n.a.createElement("img", {
                           src: "/images/angleRight.svg",
                           alt: "",
                           className: "ml-2"
@@ -262,66 +296,66 @@
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { id: "product", className: "fullglance" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "row mx-0" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   {
                     className:
                       "col-sm-12 col-md-6 col-lg-6 pl-0 pr-5 bizfullviewImg"
                   },
-                  l.a.createElement("img", {
+                  n.a.createElement("img", {
                     src: "/images/bizfullview.svg",
                     className: "responsive"
                   })
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   {
                     className: "col-sm-12 col-md-6 col-lg-6 my-auto pr-0 pl-0"
                   },
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "header font-35 mt-3" },
                     "Get a full view of your business at a glance."
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "p",
                     { className: "subheader py-3" },
                     "We've designed our platform to allow you to see all payments across multiple channels on a single dashboard. It's never been so easy to track performance, optimize and grow."
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "row mx-0" },
-                    o.map(function(e) {
-                      return l.a.createElement(
+                    i.map(function(e) {
+                      return n.a.createElement(
                         "div",
                         {
                           className:
                             "col-sm-12 col-md-6 col-lg-6 px-0  pr-5 mx-0 "
                         },
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "px-0 mx-0" },
-                          l.a.createElement("img", {
+                          n.a.createElement("img", {
                             src: "/images/".concat(e.logo),
                             alt: "secure_payment",
                             width: "50"
                           })
                         ),
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "features-title py-3" },
                           e.title
                         ),
-                        l.a.createElement(
+                        n.a.createElement(
                           "p",
                           { className: "features-body font-16" },
                           e.short_description
@@ -334,44 +368,44 @@
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "brands" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "row mx-0" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "col-sm-12 col-md-6 col-lg-6 pr-5 pl-0" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "header" },
                     "Brands that trust us..."
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "p",
                     { className: "subheader py-3" },
                     "It's easier to focus on building great products and services when payment works. For these companies, accepting money from their customers isn't their problem. It's our pleasure."
                   )
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   {
                     className: "col-sm-12 col-md-6 col-lg-6 row  mx-0 px-0 pt-5"
                   },
                   d.map(function(e) {
-                    return l.a.createElement(
+                    return n.a.createElement(
                       "div",
                       {
                         className: " col-xs-6 col-md-4 col-lg-4 col-sm-6 mx-0 "
                       },
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "col-6 col-sm-4 col-md-2 mb-4 mb-md-0" },
-                        l.a.createElement("img", {
+                        n.a.createElement("img", {
                           src: "/images/".concat(e.logo),
                           alt: "secure_payment",
                           width: "100"
@@ -383,65 +417,65 @@
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { id: "product", className: "sectionPadding" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "title" },
                   "Case Studies"
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "header" },
                   "The Impact of SeerBit."
                 )
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "py-3 row mx-0 px-0" },
                 u.map(function(e) {
-                  return l.a.createElement(
+                  return n.a.createElement(
                     "div",
                     {
                       className:
                         "col-sm-12 col-md-6 col-lg-6 studiesList pr-5 pl-0"
                     },
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "px-0 mx-0" },
-                      l.a.createElement("img", {
+                      n.a.createElement("img", {
                         src: "/images/".concat(e.images),
                         alt: "secure_payment",
                         width: "100%"
                       })
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "h6",
                       { className: "features-title py-3 mt-3" },
                       e.title
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "features-body font-16" },
                       e.short_description
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       { href: e.link, className: "color283 ml-4 font-16" },
                       " ",
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         null,
                         e.linkname,
                         " ",
-                        l.a.createElement("img", {
+                        n.a.createElement("img", {
                           src: "/images/angleRight.svg",
                           alt: "",
                           className: "ml-2"
@@ -452,37 +486,37 @@
                   );
                 })
               ),
-              l.a.createElement("hr", { className: "mt-5 mb-0" })
+              n.a.createElement("hr", { className: "mt-5 mb-0" })
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "blogSection2" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "text-center" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { style: { width: "100%", margin: "auto" } },
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "header" },
                     "Get the SeerBit Edge."
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "subheader py-3" },
                     "With SeerBit, you get all the flexibility that comes with an innovative ",
-                    l.a.createElement("br", null),
+                    n.a.createElement("br", null),
                     " online payment gateway and the security of a PCI-DSS certified payment processor."
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "lead font-20 mt-4" },
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       {
                         className: "btn hero-btn px-2 py-2",
@@ -491,11 +525,11 @@
                       },
                       "Get Started"
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       { href: "", className: "color283 ml-4 font-16" },
                       "Talk to us",
-                      l.a.createElement("img", {
+                      n.a.createElement("img", {
                         src: "/images/angleRight.svg",
                         alt: "",
                         className: "ml-2"
@@ -508,7 +542,7 @@
           )
         );
       }
-      var g = [
+      var h = [
           {
             id: 1,
             logo: "3dsecure.svg",
@@ -558,7 +592,7 @@
             read: "4 mins read "
           }
         ],
-        E = [
+        v = [
           {
             question: "Are there any hidden fees or monthly charges?",
             ans: "No",
@@ -586,8 +620,8 @@
             id: 5
           }
         ],
-        h = t(35),
-        v =
+        f = t(35),
+        y =
           (t(43),
           function(e) {
             var a = e.header,
@@ -595,18 +629,18 @@
               s = e.open,
               r = void 0 !== s && s,
               c = e.head,
-              m = Object(n.useRef)(),
-              i = Object(n.useState)(!1),
-              o = Object(h.a)(i, 2),
-              d = o[0],
-              u = o[1];
-            return l.a.createElement(
+              m = Object(l.useRef)(),
+              o = Object(l.useState)(!1),
+              i = Object(f.a)(o, 2),
+              d = i[0],
+              u = i[1];
+            return n.a.createElement(
               "div",
               { className: "rx_drop" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { style: { display: "flex" } },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   {
                     className: "rx_hd",
@@ -619,112 +653,112 @@
                           ));
                     }
                   },
-                  l.a.cloneElement(a, {
+                  n.a.cloneElement(a, {
                     ref: m,
                     src: d ? "/images/minusfaq.svg" : "/images/plusfaq.svg"
                   })
                 ),
                 console.log(c),
-                l.a.createElement("div", null, c)
+                n.a.createElement("div", null, c)
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "rx_con ".concat(r ? "open" : "") },
                 t
               )
             );
           });
-      function f() {
-        return l.a.createElement(
+      function N() {
+        return n.a.createElement(
           "div",
           { className: "px-0 mx-0" },
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "pricingSectionOne" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "pricingIntro text-center" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "hero-header" },
                 "No hidden charges, no surprises."
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "subheader" },
                 "See what you pay for every transaction."
               )
             ),
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "pricing-card py-5 mx-0 col-12" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "m-auto cardShadow px-5" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "row my-5 px-5" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "col-lg-4 col-md-4 col-sm-12 px-0 payMethod" },
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "intText" },
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-15 mb-3 font-weight-bold" },
                         "Local Payment Methods"
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-30 font-weight-bold mb-4" },
-                        l.a.createElement("span", null, "1.5%"),
+                        n.a.createElement("span", null, "1.5%"),
                         " + ",
-                        l.a.createElement("span", null, "NGN 50")
+                        n.a.createElement("span", null, "NGN 50")
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-15 mb-3 font-weight-bold" },
                         "Inclusives"
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "row font-15 gray2 mb-4" },
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "col-1" },
-                          l.a.createElement("img", {
+                          n.a.createElement("img", {
                             src: "/images/checkmark.svg",
                             alt: ""
                           })
                         ),
                         " ",
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "col-10" },
                           "Accept payments through Cards, Bank Transfer, USSD, Bank Account, QR"
                         )
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "row font-15 gray2 mb-4" },
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "col-1" },
-                          l.a.createElement("img", {
+                          n.a.createElement("img", {
                             src: "/images/checkmark.svg",
                             alt: ""
                           })
                         ),
                         " ",
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "col-10" },
                           "Fees for local cards are capped at \u20a62000 - which means you won't pay more than that for such transactions."
                         )
                       )
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       {
                         className: "btn hero-btn px-2 py-2 mt-5",
@@ -734,71 +768,71 @@
                       "Get Started"
                     )
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     {
                       className:
                         "col-lg-4 col-md-4 col-sm-12 pl-5 pr-0 payMethod intpay"
                     },
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "intText borderTop " },
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-15 font-weight-bold mb-3" },
                         " ",
                         "International Payment Methods"
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-30 font-weight-bold mb-4" },
-                        l.a.createElement("span", null, "3.5%"),
+                        n.a.createElement("span", null, "3.5%"),
                         " + ",
-                        l.a.createElement("span", null, "NGN 0")
+                        n.a.createElement("span", null, "NGN 0")
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-15 font-weight-bold mb-3" },
                         "Inclusives"
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "row font-15 gray2 mb-4" },
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "col-1 " },
-                          l.a.createElement("img", {
+                          n.a.createElement("img", {
                             src: "/images/checkmark.svg",
                             alt: ""
                           })
                         ),
                         " ",
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "col-10 text-left" },
                           "Accept payments from other countries with the same flow."
                         )
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "row fonr-15 gray2 mb-4" },
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "col-1" },
-                          l.a.createElement("img", {
+                          n.a.createElement("img", {
                             src: "/images/checkmark.svg",
                             alt: ""
                           })
                         ),
                         " ",
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "col-10" },
                           "International transactions are also settled directly to you."
                         )
                       )
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       {
                         className: "btn hero-btn px-2 py-2 mt-5",
@@ -808,36 +842,36 @@
                       "Get Started"
                     )
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     {
                       className: "col-lg-4 col-md-4 col-sm-12 pl-5 pr-0 intpay"
                     },
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "intText borderTop" },
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-15 font-weight-bold mb-3" },
                         "Enterprise"
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-30 font-weight-bold mb-4" },
                         "Custom"
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-15 font-weight-bold mb-3" },
                         "Inclusives"
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "font-15 gray2 mb-4" },
                         "Talk to our experts and get tailored pricing for your business"
                       )
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       {
                         className: "btn btn-white btn-lg mt-5",
@@ -847,41 +881,41 @@
                       "Talk to sales"
                     )
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "col-12 px-0 mb-5 mt-4 pt-4" },
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "text-center gray2 mt-5 mb-3 borderTop1" },
-                      l.a.createElement(
+                      n.a.createElement(
                         "span",
                         null,
-                        l.a.createElement("img", {
+                        n.a.createElement("img", {
                           src: "/images/checkmark.svg",
                           alt: ""
                         })
                       ),
                       " ",
-                      l.a.createElement(
+                      n.a.createElement(
                         "span",
                         { className: "ml-3" },
                         "Get everything you need to manage your payments."
                       )
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "text-center gray2" },
-                      l.a.createElement(
+                      n.a.createElement(
                         "span",
                         null,
-                        l.a.createElement("img", {
+                        n.a.createElement("img", {
                           src: "/images/checkmark.svg",
                           alt: ""
                         }),
                         " "
                       ),
                       " ",
-                      l.a.createElement(
+                      n.a.createElement(
                         "span",
                         { className: "ml-3" },
                         "No setup fee, monthly fees/charges or hidden fees"
@@ -890,12 +924,12 @@
                   )
                 )
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "font-35 font-weight-bold text-center" },
                 "Frequently asked questions"
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 {
                   style: {
@@ -906,28 +940,28 @@
                   },
                   className: "container mt-4 faqs w-auto text-center"
                 },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   null,
-                  E.map(function(e, a) {
-                    return l.a.createElement(
+                  v.map(function(e, a) {
+                    return n.a.createElement(
                       "div",
                       { className: "faqIndex py-4 " },
-                      l.a.createElement(
-                        v,
+                      n.a.createElement(
+                        y,
                         {
                           "data-index": a,
                           key: "faq_list+".concat(a),
-                          header: l.a.createElement("img", {
+                          header: n.a.createElement("img", {
                             className: "mr-3",
                             src: ""
                           }),
                           head: e.question
                         },
-                        l.a.createElement(
+                        n.a.createElement(
                           "div",
                           { className: "inf_x" },
-                          l.a.createElement(
+                          n.a.createElement(
                             "p",
                             {
                               className: "ml-5 mt-3",
@@ -943,31 +977,31 @@
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "blogSection2 " },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "text-center " },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { style: { width: "100%", margin: "auto" } },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "header" },
                   "Get the SeerBit Edge."
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "subheader py-3" },
                   "With SeerBit, you get all the flexibility that comes with an innovative ",
-                  l.a.createElement("br", null),
+                  n.a.createElement("br", null),
                   " online payment gateway and the security of a PCI-DSS certified payment processor."
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "lead font-20 mt-4" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     {
                       className: "btn hero-btn px-2 py-2",
@@ -976,11 +1010,11 @@
                     },
                     "Get Started"
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     { href: "", className: "color283 ml-4 font-16" },
                     "Talk to us ",
-                    l.a.createElement("img", {
+                    n.a.createElement("img", {
                       src: "/images/angleRight.svg",
                       alt: ""
                     })
@@ -992,10 +1026,10 @@
         );
       }
       var b = t(59),
-        y = t(60);
+        w = t(60);
       t(44);
-      function N() {
-        return l.a.createElement(
+      function x() {
+        return n.a.createElement(
           b.a,
           {
             bg: "",
@@ -1006,39 +1040,43 @@
               padding: "0 8%"
             }
           },
-          l.a.createElement(
+          n.a.createElement(
             b.a.Brand,
             { href: "/" },
-            l.a.createElement("img", {
+            n.a.createElement("img", {
               src: "https://seerbit.com/images/logo.png",
               alt: "Seerbit",
               style: { width: "120px" }
             })
           ),
-          l.a.createElement(b.a.Toggle, {
+          n.a.createElement(b.a.Toggle, {
             "aria-controls": "basic-navbar-nav"
           }),
-          l.a.createElement(
+          n.a.createElement(
             b.a.Collapse,
             { id: "basic-navbar-nav" },
-            l.a.createElement(
-              y.a,
+            n.a.createElement(
+              w.a,
               {
                 className: "mr-auto text-left  navmargin",
                 style: { marginLeft: "5%" }
               },
-              l.a.createElement(y.a.Link, { href: "/" }, "Home"),
-              l.a.createElement(y.a.Link, { href: "/features" }, "Features"),
-              l.a.createElement(y.a.Link, { href: "/pricing" }, "Pricing"),
-              l.a.createElement(y.a.Link, { href: "/resources" }, "Resources"),
-              l.a.createElement(y.a.Link, { href: "/support" }, "Support")
+              n.a.createElement(w.a.Link, { href: "/" }, "Home"),
+              n.a.createElement(w.a.Link, { href: "/features" }, "Features"),
+              n.a.createElement(w.a.Link, { href: "/pricing" }, "Pricing"),
+              n.a.createElement(
+                w.a.Link,
+                { href: "/developers" },
+                "Developers"
+              ),
+              n.a.createElement(w.a.Link, { href: "/support" }, "Support")
             ),
-            l.a.createElement(
+            n.a.createElement(
               "a",
               { href: "/contact-us", className: "pl-0 ml-0 getstarted" },
               "Contact us"
             ),
-            l.a.createElement(
+            n.a.createElement(
               "a",
               {
                 href: "https://dashboard.seerbitapi.com/#/auth/login",
@@ -1046,7 +1084,7 @@
               },
               "Login"
             ),
-            l.a.createElement(
+            n.a.createElement(
               "a",
               {
                 href: "/getstarted",
@@ -1057,234 +1095,234 @@
           )
         );
       }
-      var w = t(56),
-        x = t(57),
-        k = t(58),
-        S = t(3);
-      function _() {
-        return l.a.createElement(
+      var k = t(56),
+        S = t(57),
+        _ = t(58),
+        P = t(3);
+      function A() {
+        return n.a.createElement(
           "footer",
           { className: "mb-0 pb-0" },
-          l.a.createElement(
-            w.a,
+          n.a.createElement(
+            k.a,
             null,
-            l.a.createElement(
-              x.a,
+            n.a.createElement(
+              S.a,
               { className: "footer-container" },
-              l.a.createElement(
-                k.a,
+              n.a.createElement(
+                _.a,
                 { xs: 4, sm: 4, md: 2, lg: 2, className: "" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "mb-3 font-weight-bold" },
                   "SeerBit"
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "ul",
                   { className: "list-unstyled text-small" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "About")
+                    n.a.createElement(P.b, { to: "./" }, "About")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Careers")
+                    n.a.createElement(P.b, { to: "./" }, "Careers")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Blog")
+                    n.a.createElement(P.b, { to: "./" }, "Blog")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Contact")
+                    n.a.createElement(P.b, { to: "./" }, "Contact")
                   )
                 )
               ),
-              l.a.createElement(
-                k.a,
+              n.a.createElement(
+                _.a,
                 { xs: 4, sm: 4, md: 2, lg: 2, className: "" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "mb-3 font-weight-bold" },
                   "Features"
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "ul",
                   { className: "list-unstyled text-small" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Pricing")
+                    n.a.createElement(P.b, { to: "./" }, "Pricing")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Payment Methods")
+                    n.a.createElement(P.b, { to: "./" }, "Payment Methods")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Libraries & Plugins")
+                    n.a.createElement(P.b, { to: "./" }, "Libraries & Plugins")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Disputes")
+                    n.a.createElement(P.b, { to: "./" }, "Disputes")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Refunds")
+                    n.a.createElement(P.b, { to: "./" }, "Refunds")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Recurring Payments")
+                    n.a.createElement(P.b, { to: "./" }, "Recurring Payments")
                   )
                 )
               ),
-              l.a.createElement(
-                k.a,
+              n.a.createElement(
+                _.a,
                 { xs: 4, sm: 4, md: 2, lg: 2 },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "mb-3 font-weight-bold" },
                   "Knowledge Hub"
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "ul",
                   { className: "list-unstyled text-small" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: " footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Get Started")
+                    n.a.createElement(P.b, { to: "./" }, "Get Started")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Documentation")
+                    n.a.createElement(P.b, { to: "./" }, "Documentation")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "API Reference")
+                    n.a.createElement(P.b, { to: "./" }, "API Reference")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Support")
+                    n.a.createElement(P.b, { to: "./" }, "Support")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Realease Notes")
+                    n.a.createElement(P.b, { to: "./" }, "Realease Notes")
                   )
                 )
               ),
-              l.a.createElement(
-                k.a,
+              n.a.createElement(
+                _.a,
                 { xs: 4, sm: 4, md: 2, lg: 2, className: "" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "mb-3 font-weight-bold" },
                   "Platform"
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "ul",
                   { className: "list-unstyled text-small" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Privacy")
+                    n.a.createElement(P.b, { to: "./" }, "Privacy")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Terms of service")
+                    n.a.createElement(P.b, { to: "./" }, "Terms of service")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Top Level Security")
+                    n.a.createElement(P.b, { to: "./" }, "Top Level Security")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: " footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Risk Management")
+                    n.a.createElement(P.b, { to: "./" }, "Risk Management")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: " footerlist" },
-                    l.a.createElement(S.b, { to: "./" }, "Fraud Prevention")
+                    n.a.createElement(P.b, { to: "./" }, "Fraud Prevention")
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "li",
                     { className: "footerlist" },
-                    l.a.createElement(S.b, { to: "/blog" }, "Blog")
+                    n.a.createElement(P.b, { to: "/blog" }, "Blog")
                   )
                 )
               ),
-              l.a.createElement(
-                k.a,
+              n.a.createElement(
+                _.a,
                 { xs: 12, sm: 12, md: 4, lg: 4 },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { div: !0, className: " font-weight-bold" },
                   "Subcribe"
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "input-group-prepend mb-4 pt-3 mt-4 " },
-                  l.a.createElement("input", {
+                  n.a.createElement("input", {
                     type: "text",
                     placeholder: "Email",
                     className: " footer-input py-4 px-3 form-control"
                   }),
-                  l.a.createElement(
+                  n.a.createElement(
                     "button",
                     { className: "btn  btn-footer-inpbtn", type: "button" },
                     " ",
-                    l.a.createElement("img", {
+                    n.a.createElement("img", {
                       src: "/images/angleRight.svg",
                       alt: "go"
                     }),
                     " "
                   )
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   null,
                   "By submitting this form, you acknowledge that you have reviewed the terms of our Privacy Statement and consent to the use of data in accordance there with."
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "mt-4 pt-1" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     { href: "" },
-                    l.a.createElement("img", {
+                    n.a.createElement("img", {
                       src: "/images/linkedin.svg",
                       alt: "linkedIn"
                     })
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     { href: "", className: "mx-4" },
                     " ",
-                    l.a.createElement("img", {
+                    n.a.createElement("img", {
                       src: "/images/instagram.svg",
                       alt: "instagram"
                     })
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     { href: "" },
                     " ",
-                    l.a.createElement("img", {
+                    n.a.createElement("img", {
                       src: "/images/twitter.svg",
                       alt: "twitter"
                     })
@@ -1292,7 +1330,7 @@
                 )
               )
             ),
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "text-center py-5" },
               "2020 SeerBit | All Rights Reserved"
@@ -1300,8 +1338,8 @@
           )
         );
       }
-      function T() {
-        return l.a.createElement(
+      function R() {
+        return n.a.createElement(
           b.a,
           {
             bg: "",
@@ -1315,42 +1353,42 @@
               borderBottom: "1px solid #F3F6F9"
             }
           },
-          l.a.createElement(b.a.Toggle, {
+          n.a.createElement(b.a.Toggle, {
             "aria-controls": "basic-navbar-nav"
           }),
-          l.a.createElement(
+          n.a.createElement(
             b.a.Collapse,
             { id: "basic-navbar-nav" },
-            l.a.createElement(
-              y.a,
+            n.a.createElement(
+              w.a,
               { className: "mr-auto text-left" },
-              l.a.createElement(
-                y.a.Link,
+              n.a.createElement(
+                w.a.Link,
                 { href: "/", className: "mr-4" },
                 "All"
               ),
-              l.a.createElement(
-                y.a.Link,
+              n.a.createElement(
+                w.a.Link,
                 { href: "/", className: "mr-4" },
                 "Latest"
               ),
-              l.a.createElement(
-                y.a.Link,
+              n.a.createElement(
+                w.a.Link,
                 { href: "/", className: "mr-4" },
                 "Technology"
               ),
-              l.a.createElement(
-                y.a.Link,
+              n.a.createElement(
+                w.a.Link,
                 { href: "/", className: "mr-4" },
                 "Partenership"
               ),
-              l.a.createElement(
-                y.a.Link,
+              n.a.createElement(
+                w.a.Link,
                 { href: "/", className: "mr-4" },
                 "Growth"
               ),
-              l.a.createElement(
-                y.a.Link,
+              n.a.createElement(
+                w.a.Link,
                 { href: "/", className: "mr-4" },
                 "Product"
               )
@@ -1358,77 +1396,77 @@
           )
         );
       }
-      function R() {
-        return l.a.createElement(
-          l.a.Fragment,
-          null,
-          l.a.createElement(N, null),
-          l.a.createElement(_, null)
-        );
-      }
-      function P() {
-        return l.a.createElement(
-          l.a.Fragment,
-          null,
-          l.a.createElement(N, null),
-          l.a.createElement(_, null)
-        );
-      }
-      function A() {
-        return l.a.createElement("div", null);
-      }
       function B() {
-        var e = g
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(x, null),
+          n.a.createElement(A, null)
+        );
+      }
+      function T() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(x, null),
+          n.a.createElement(A, null)
+        );
+      }
+      function I() {
+        return n.a.createElement("div", null);
+      }
+      function D() {
+        var e = h
           .sort(function() {
             return Math.random() - 0.5;
           })
           .slice(0, 3);
-        return l.a.createElement(
-          l.a.Fragment,
+        return n.a.createElement(
+          n.a.Fragment,
           null,
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "blogSection1" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "blog_container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "color283 font-15 pt-5" },
-                l.a.createElement("span", null, "August 17, 2020 | "),
+                n.a.createElement("span", null, "August 17, 2020 | "),
                 " ",
-                l.a.createElement("span", null, " 4 mins read ")
+                n.a.createElement("span", null, " 4 mins read ")
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "header pt-2 mb-2" },
                 " ",
                 "PAYMENT EXPERIENCES FOR TRAVELS AND TOURISM BUSINESSES"
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "subheader mb-3" },
                 "The travel industry is known to be challenging \u2013 volume dependent, thin margins, price sensitive, variation of demanding customers and its vulnerability to fraudulent activities."
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "pb-5" },
-                l.a.createElement("img", {
+                n.a.createElement("img", {
                   src: "/images/pre-auth.png",
                   alt: "",
                   className: "w-100"
                 })
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "subheader" },
-                l.a.createElement(
+                n.a.createElement(
                   "p",
                   null,
                   "This is a fast moving industry and the demand from its customers have grown a-lot more over time. Customers wants the best price and seamless experience when making travel plans. Ensuring businesses have a seamless and frictionless customer experience is not an easy task in the travel tourism world as travelers are from different places globally.",
                   " "
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "p",
                   null,
                   "SeerBit is provides a payment gateway solution that allow businesses collect payments in different currencies with our wide variety of payment options (Pay with card, Pay with Transfer, Pay with Bank Account and payments via digital wallets). Also included in the payment channel for businesses in the travel industry is allowing customers setup a payment plan which allows them pay for a booking multiple times or them splitting the payments between friends. With SeerBit\u2019s flexibility, businesses we are able to keep up with the rapidly changing landscape and meet up with the future growing plans of the business. SeerBit offers a creative solution, expert advices, transparency, flexibility and most importantly we are committed in maintaining a long relationship with businesses we partner with."
@@ -1436,77 +1474,77 @@
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "blog-keep-reading py-2" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "header py-3 mb-5" },
                 "Keeping Reading Porpular Articles"
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "row px-0 mx-0" },
                 e.map(function(e) {
-                  return l.a.createElement(
+                  return n.a.createElement(
                     "div",
                     {
                       className:
                         "col-lg-4 col-sm-12 col-md-6 pb-5 pl-0 pr-5 blogdD mx-0"
                     },
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "imgDiv px-0 pb-4" },
-                      l.a.createElement("img", {
+                      n.a.createElement("img", {
                         src: "/images/".concat(e.logo),
                         alt: e.title
                       })
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "font-weight-bold font-20" },
                       e.title
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "color283 font-15" },
-                      l.a.createElement("span", null, e.date, " | "),
+                      n.a.createElement("span", null, e.date, " | "),
                       " ",
-                      l.a.createElement("span", null, e.read)
+                      n.a.createElement("span", null, e.read)
                     )
                   );
                 })
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "blogSection2" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "text-center" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { style: { width: "100%", margin: "auto" } },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "header" },
                   "Get the SeerBit Edge."
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "subheader py-3 " },
                   "With SeerBit, you get all the flexibility that comes with an innovative ",
-                  l.a.createElement("br", null),
+                  n.a.createElement("br", null),
                   " online payment gateway and the security of a PCI-DSS certified payment processor."
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "lead font-20 mt-4" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     {
                       className: "btn hero-btn px-2 py-2",
@@ -1515,163 +1553,11 @@
                     },
                     "Get Started"
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     { href: "", className: "color283 ml-4 font-16" },
                     "Talk to us ",
-                    l.a.createElement("img", {
-                      src: "/images/angleRight.svg",
-                      alt: ""
-                    })
-                  )
-                )
-              )
-            )
-          )
-        );
-      }
-      function I() {
-        var e = g
-          .sort(function() {
-            return Math.random() - 0.5;
-          })
-          .slice(0, 3);
-        return l.a.createElement(
-          l.a.Fragment,
-          null,
-          l.a.createElement(
-            "section",
-            { className: "blogSection1" },
-            l.a.createElement(
-              "div",
-              { className: "blog_container" },
-              l.a.createElement(
-                "div",
-                { className: "color283 font-15 pt-5" },
-                l.a.createElement("span", null, "October 5, 2020 | "),
-                " ",
-                l.a.createElement("span", null, " 2 mins read ")
-              ),
-              l.a.createElement(
-                "div",
-                { className: "header pt-2 mb-2" },
-                " ",
-                "STREAMLINING PAYMENTS FOR RESTURANTS"
-              ),
-              l.a.createElement(
-                "div",
-                { className: "subheader mb-3" },
-                "As the dinning scene in restaurants is changing, restaurant owners are looking for ways to increase efficiency and customer service experience by offering seamless payment options for its customers."
-              ),
-              l.a.createElement(
-                "div",
-                { className: "pb-5" },
-                l.a.createElement("img", {
-                  src: "/images/payResturants.svg",
-                  alt: "",
-                  className: "w-100"
-                })
-              ),
-              l.a.createElement(
-                "div",
-                { className: "subheader" },
-                l.a.createElement(
-                  "p",
-                  null,
-                  "Dining experience isn\u2019t just about the meal, it\u2019s also about the convenience and experience the customer faces during visits to the restaurants or ordering meals from home. From the process of ordering meals to checkout there are many difficulties customers may experience that is why it is important to integrate with a suitable payment partner that understands both the business and its customers and a partner that keeps up with the latest payment trends."
-                ),
-                l.a.createElement(
-                  "p",
-                  null,
-                  "Adding SeerBit integrations to restaurant business value chain enables the business to go completely cashless by offering an offline payment system to its customers using USSD and QR payment option ensuring the business can grow and scale quickly. All your customer needs to make payment is a mobile phone and a bank account domiciled in your country of residence. Ultimately SeerBit provides a reliable and consistent payment gateway solution that helps in growing businesses at a very reliable cost."
-                )
-              )
-            )
-          ),
-          l.a.createElement(
-            "section",
-            { className: "blog-keep-reading py-2" },
-            l.a.createElement(
-              "div",
-              { className: "container" },
-              l.a.createElement(
-                "div",
-                { className: "header py-3 mb-5" },
-                "Keeping Reading Porpular Articles"
-              ),
-              l.a.createElement(
-                "div",
-                { className: "row px-0 mx-0" },
-                e.map(function(e) {
-                  return l.a.createElement(
-                    "div",
-                    {
-                      className:
-                        "col-lg-4 col-sm-12 col-md-6 pb-5 pl-0 pr-5 blogdD mx-0"
-                    },
-                    l.a.createElement(
-                      "div",
-                      { className: "imgDiv px-0 pb-4" },
-                      l.a.createElement("img", {
-                        src: "/images/".concat(e.logo),
-                        alt: e.title
-                      })
-                    ),
-                    l.a.createElement(
-                      "div",
-                      { className: "font-weight-bold font-20" },
-                      e.title
-                    ),
-                    l.a.createElement(
-                      "div",
-                      { className: "color283 font-15" },
-                      l.a.createElement("span", null, e.date, " | "),
-                      " ",
-                      l.a.createElement("span", null, e.read)
-                    )
-                  );
-                })
-              )
-            )
-          ),
-          l.a.createElement(
-            "section",
-            { className: "blogSection2" },
-            l.a.createElement(
-              "div",
-              { className: "text-center" },
-              l.a.createElement(
-                "div",
-                { style: { width: "100%", margin: "auto" } },
-                l.a.createElement(
-                  "div",
-                  { className: "header" },
-                  "Get the SeerBit Edge."
-                ),
-                l.a.createElement(
-                  "div",
-                  { className: "subheader py-3 " },
-                  "With SeerBit, you get all the flexibility that comes with an innovative ",
-                  l.a.createElement("br", null),
-                  " online payment gateway and the security of a PCI-DSS certified payment processor."
-                ),
-                l.a.createElement(
-                  "div",
-                  { className: "lead font-20 mt-4" },
-                  l.a.createElement(
-                    "a",
-                    {
-                      className: "btn hero-btn px-2 py-2",
-                      href: "#",
-                      role: "button"
-                    },
-                    "Get Started"
-                  ),
-                  l.a.createElement(
-                    "a",
-                    { href: "", className: "color283 ml-4 font-16" },
-                    "Talk to us ",
-                    l.a.createElement("img", {
+                    n.a.createElement("img", {
                       src: "/images/angleRight.svg",
                       alt: ""
                     })
@@ -1683,41 +1569,193 @@
         );
       }
       function C() {
-        return l.a.createElement(
-          l.a.Fragment,
+        var e = h
+          .sort(function() {
+            return Math.random() - 0.5;
+          })
+          .slice(0, 3);
+        return n.a.createElement(
+          n.a.Fragment,
           null,
-          l.a.createElement(
+          n.a.createElement(
             "section",
-            { className: "contact-us" },
-            l.a.createElement(
+            { className: "blogSection1" },
+            n.a.createElement(
+              "div",
+              { className: "blog_container" },
+              n.a.createElement(
+                "div",
+                { className: "color283 font-15 pt-5" },
+                n.a.createElement("span", null, "October 5, 2020 | "),
+                " ",
+                n.a.createElement("span", null, " 2 mins read ")
+              ),
+              n.a.createElement(
+                "div",
+                { className: "header pt-2 mb-2" },
+                " ",
+                "STREAMLINING PAYMENTS FOR RESTURANTS"
+              ),
+              n.a.createElement(
+                "div",
+                { className: "subheader mb-3" },
+                "As the dinning scene in restaurants is changing, restaurant owners are looking for ways to increase efficiency and customer service experience by offering seamless payment options for its customers."
+              ),
+              n.a.createElement(
+                "div",
+                { className: "pb-5" },
+                n.a.createElement("img", {
+                  src: "/images/payResturants.svg",
+                  alt: "",
+                  className: "w-100"
+                })
+              ),
+              n.a.createElement(
+                "div",
+                { className: "subheader" },
+                n.a.createElement(
+                  "p",
+                  null,
+                  "Dining experience isn\u2019t just about the meal, it\u2019s also about the convenience and experience the customer faces during visits to the restaurants or ordering meals from home. From the process of ordering meals to checkout there are many difficulties customers may experience that is why it is important to integrate with a suitable payment partner that understands both the business and its customers and a partner that keeps up with the latest payment trends."
+                ),
+                n.a.createElement(
+                  "p",
+                  null,
+                  "Adding SeerBit integrations to restaurant business value chain enables the business to go completely cashless by offering an offline payment system to its customers using USSD and QR payment option ensuring the business can grow and scale quickly. All your customer needs to make payment is a mobile phone and a bank account domiciled in your country of residence. Ultimately SeerBit provides a reliable and consistent payment gateway solution that helps in growing businesses at a very reliable cost."
+                )
+              )
+            )
+          ),
+          n.a.createElement(
+            "section",
+            { className: "blog-keep-reading py-2" },
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
-                { className: "row mt-5" },
-                l.a.createElement(
+                { className: "header py-3 mb-5" },
+                "Keeping Reading Porpular Articles"
+              ),
+              n.a.createElement(
+                "div",
+                { className: "row px-0 mx-0" },
+                e.map(function(e) {
+                  return n.a.createElement(
+                    "div",
+                    {
+                      className:
+                        "col-lg-4 col-sm-12 col-md-6 pb-5 pl-0 pr-5 blogdD mx-0"
+                    },
+                    n.a.createElement(
+                      "div",
+                      { className: "imgDiv px-0 pb-4" },
+                      n.a.createElement("img", {
+                        src: "/images/".concat(e.logo),
+                        alt: e.title
+                      })
+                    ),
+                    n.a.createElement(
+                      "div",
+                      { className: "font-weight-bold font-20" },
+                      e.title
+                    ),
+                    n.a.createElement(
+                      "div",
+                      { className: "color283 font-15" },
+                      n.a.createElement("span", null, e.date, " | "),
+                      " ",
+                      n.a.createElement("span", null, e.read)
+                    )
+                  );
+                })
+              )
+            )
+          ),
+          n.a.createElement(
+            "section",
+            { className: "blogSection2" },
+            n.a.createElement(
+              "div",
+              { className: "text-center" },
+              n.a.createElement(
+                "div",
+                { style: { width: "100%", margin: "auto" } },
+                n.a.createElement(
                   "div",
-                  { className: "col-6" },
-                  l.a.createElement(
+                  { className: "header" },
+                  "Get the SeerBit Edge."
+                ),
+                n.a.createElement(
+                  "div",
+                  { className: "subheader py-3 " },
+                  "With SeerBit, you get all the flexibility that comes with an innovative ",
+                  n.a.createElement("br", null),
+                  " online payment gateway and the security of a PCI-DSS certified payment processor."
+                ),
+                n.a.createElement(
+                  "div",
+                  { className: "lead font-20 mt-4" },
+                  n.a.createElement(
+                    "a",
+                    {
+                      className: "btn hero-btn px-2 py-2",
+                      href: "#",
+                      role: "button"
+                    },
+                    "Get Started"
+                  ),
+                  n.a.createElement(
+                    "a",
+                    { href: "", className: "color283 ml-4 font-16" },
+                    "Talk to us ",
+                    n.a.createElement("img", {
+                      src: "/images/angleRight.svg",
+                      alt: ""
+                    })
+                  )
+                )
+              )
+            )
+          )
+        );
+      }
+      function G() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            "section",
+            { className: "contact-us" },
+            n.a.createElement(
+              "div",
+              { className: "container" },
+              n.a.createElement(
+                "div",
+                { className: "row mt-5 mt-md-7" },
+                n.a.createElement(
+                  "div",
+                  { className: "col-12 col-md-6" },
+                  n.a.createElement(
                     "div",
                     { className: "header" },
                     "In need of a payment solution for your business?"
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "subheader" },
-                    l.a.createElement(
+                    n.a.createElement(
                       "p",
                       null,
                       "We'd love to hear about your business, and where you're headed. Please provide any information or ask questions about how SeerBit can help grow your business. Please fill in the form provided on this page and we\u2019ll get back to you as soon as possible."
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "p",
                       null,
                       " ",
                       "Alternatively you can",
                       " ",
-                      l.a.createElement(
+                      n.a.createElement(
                         "a",
                         { href: "mailto:partners@seerbit.com", target: "_top" },
                         "Email us."
@@ -1727,19 +1765,19 @@
                     )
                   )
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
-                  { className: "col-6" },
-                  l.a.createElement(
+                  { className: "col-12 col-md-6" },
+                  n.a.createElement(
                     "form",
                     null,
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { class: "row" },
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "form-group col-sm-6" },
-                        l.a.createElement("input", {
+                        n.a.createElement("input", {
                           type: "text",
                           className: "form-control fg",
                           name: "firstname",
@@ -1747,10 +1785,10 @@
                           placeholder: "First name"
                         })
                       ),
-                      l.a.createElement(
+                      n.a.createElement(
                         "div",
                         { className: "form-group col-sm-6" },
-                        l.a.createElement("input", {
+                        n.a.createElement("input", {
                           type: "text",
                           className: "form-control fg",
                           name: "lastname",
@@ -1759,10 +1797,10 @@
                         })
                       )
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "form-group" },
-                      l.a.createElement("input", {
+                      n.a.createElement("input", {
                         type: "email",
                         className: "form-control fg",
                         name: "email",
@@ -1771,10 +1809,10 @@
                         required: !0
                       })
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "form-group" },
-                      l.a.createElement("input", {
+                      n.a.createElement("input", {
                         type: "text",
                         className: "form-control fg",
                         name: "company_name",
@@ -1782,10 +1820,10 @@
                         placeholder: "Company Name"
                       })
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "form-group" },
-                      l.a.createElement("input", {
+                      n.a.createElement("input", {
                         type: "text",
                         className: "form-control fg",
                         name: "website",
@@ -1793,10 +1831,10 @@
                         placeholder: "Website"
                       })
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "form-group" },
-                      l.a.createElement("input", {
+                      n.a.createElement("input", {
                         type: "text",
                         className: "form-control fg",
                         name: "phone_number",
@@ -1804,51 +1842,63 @@
                         placeholder: "Phone Number"
                       })
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "form-group" },
-                      l.a.createElement("textarea", {
+                      n.a.createElement("textarea", {
                         type: "textarea",
                         className: "form-control fg",
                         name: "message",
                         id: "message",
-                        placeholder:
-                          "Tell us briefly about your business requirements"
+                        placeholder: "I'm interested in using seerbit to:"
                       })
+                    ),
+                    n.a.createElement(
+                      "div",
+                      { className: "form-group" },
+                      n.a.createElement(
+                        "a",
+                        {
+                          className: "btn contact-btn px-2 py-2",
+                          href: "#",
+                          role: "button"
+                        },
+                        "Send inquiry"
+                      )
                     )
                   )
                 )
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "blogSection2" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "container" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "text-center" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { style: { width: "100%", margin: "auto" } },
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "header" },
                     "Get the SeerBit Edge."
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "subheader py-3 " },
                     "With SeerBit, you get all the flexibility that comes with an innovative ",
-                    l.a.createElement("br", null),
+                    n.a.createElement("br", null),
                     " online payment gateway and the security of a PCI-DSS certified payment processor."
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "div",
                     { className: "lead font-20 mt-4" },
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       {
                         className: "btn hero-btn px-2 py-2",
@@ -1857,11 +1907,11 @@
                       },
                       "Get Started"
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "a",
                       { href: "", className: "color283 ml-4 font-16" },
                       "Talk to us ",
-                      l.a.createElement("img", {
+                      n.a.createElement("img", {
                         src: "/images/angleRight.svg",
                         alt: ""
                       })
@@ -1873,39 +1923,377 @@
           )
         );
       }
-      function D() {
-        return l.a.createElement(
+      function L() {
+        return n.a.createElement(
+          n.a.Fragment,
+          null,
+          n.a.createElement(
+            "section",
+            { className: "developers-header" },
+            n.a.createElement(
+              "header",
+              { className: "container-fluid story-content" },
+              n.a.createElement(
+                "div",
+                { className: "row story-header story-header--left" },
+                n.a.createElement(
+                  "div",
+                  { className: "inner-container" },
+                  n.a.createElement(
+                    "div",
+                    { className: "row position-relative" },
+                    n.a.createElement(
+                      "div",
+                      {
+                        className:
+                          "story-header__image-wrapper col-lg-9 offset-lg-3"
+                      },
+                      n.a.createElement("div", {
+                        className:
+                          "story-header__image overlap-snap-to-right image--rounded",
+                        style: {
+                          backgroundImage:
+                            "url(https://images.unsplash.com/photo-1573165759995-5865a394a1aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)",
+                          backgroundSize: "cover",
+                          backgroundPosition: "center"
+                        }
+                      })
+                    ),
+                    n.a.createElement(
+                      "div",
+                      {
+                        className:
+                          "story-header__info-wrapper col-lg-6 offset-lg-0 col-md-8 offset-md-2"
+                      },
+                      n.a.createElement(
+                        "div",
+                        { className: "row" },
+                        n.a.createElement(
+                          "div",
+                          { className: "story-header__info col-lg-11" },
+                          n.a.createElement(
+                            "div",
+                            { className: "hero-header" },
+                            "Start",
+                            n.a.createElement("br", null),
+                            "building today"
+                          ),
+                          n.a.createElement(
+                            "p",
+                            { className: "subheader py-3" },
+                            "Whether you're a startup or a global enterprise, learn how to integrate with SeerBit to accept payments and manage your business online.",
+                            " ",
+                            " "
+                          ),
+                          n.a.createElement(
+                            "div",
+                            { className: "lead font-16" },
+                            n.a.createElement(
+                              "a",
+                              {
+                                className: "btn section-btn px-2 py-2",
+                                href: "#",
+                                role: "button"
+                              },
+                              "Get free API key"
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          n.a.createElement(
+            "section",
+            { className: "developers-description" },
+            n.a.createElement(
+              "div",
+              { className: "container" },
+              n.a.createElement(
+                "div",
+                { className: "py-3 row mx-0 " },
+                p.map(function(e) {
+                  return n.a.createElement(
+                    "div",
+                    { className: "col-sm-12 col-md-6 col-lg-4 pl-0 pr-5" },
+                    n.a.createElement(
+                      "div",
+                      { className: "px-0 mx-0 text-center" },
+                      n.a.createElement("img", {
+                        src: "/images/".concat(e.logo),
+                        alt: "secure_payment",
+                        width: "50"
+                      })
+                    ),
+                    n.a.createElement(
+                      "div",
+                      { className: "features-title py-3 text-center" },
+                      e.title
+                    ),
+                    n.a.createElement(
+                      "div",
+                      { className: "features-body font-16 text-center" },
+                      e.short_description
+                    ),
+                    n.a.createElement(
+                      "a",
+                      {
+                        href: e.link,
+                        className: "color283 ml-4 font-16 text-center"
+                      },
+                      " ",
+                      n.a.createElement(
+                        "div",
+                        null,
+                        e.linkname,
+                        " ",
+                        n.a.createElement("img", {
+                          src: "/images/angleRight.svg",
+                          alt: "",
+                          className: "ml-2 "
+                        }),
+                        " "
+                      )
+                    )
+                  );
+                }),
+                " "
+              )
+            )
+          ),
+          n.a.createElement(
+            "section",
+            { className: "white-space" },
+            n.a.createElement(
+              "div",
+              { className: "" },
+              n.a.createElement("br", null),
+              n.a.createElement("br", null)
+            )
+          ),
+          n.a.createElement(
+            "section",
+            { id: "product", className: "fullglance" },
+            n.a.createElement(
+              "div",
+              { className: "container" },
+              n.a.createElement(
+                "div",
+                { className: "row mx-0" },
+                n.a.createElement(
+                  "div",
+                  {
+                    className:
+                      "col-sm-12 col-md-6 col-lg-6 pl-0 pr-5 bizfullviewImg"
+                  },
+                  n.a.createElement("img", {
+                    src: "/images/checkout-sdk.gif",
+                    className: "responsive"
+                  })
+                ),
+                n.a.createElement(
+                  "div",
+                  {
+                    className: "col-sm-12 col-md-6 col-lg-6 my-auto pr-0 pl-0"
+                  },
+                  n.a.createElement(
+                    "div",
+                    { className: "header font-35 mt-3" },
+                    "Simple & Secure Integrations"
+                  ),
+                  n.a.createElement(
+                    "p",
+                    { className: "subheader py-3" },
+                    "Our SDKs, libraries and plugins are designed in such way that they are easy to customise, and play nice with any design. All SDKs, libraries and plugins are PCI compliant, so you don\u2019t have to worry about security."
+                  ),
+                  n.a.createElement(
+                    "div",
+                    { className: "row mx-0" },
+                    n.a.createElement(
+                      "div",
+                      { className: "col-sm-12 col-md-12 col-lg-12 px-0" },
+                      n.a.createElement(
+                        "a",
+                        { href: "", class: "card-link" },
+                        n.a.createElement(
+                          "div",
+                          { class: "card" },
+                          n.a.createElement(
+                            "div",
+                            { class: "card-body" },
+                            "View on Github"
+                          )
+                        )
+                      )
+                    ),
+                    n.a.createElement(
+                      "div",
+                      { className: "col-sm-12 col-md-12 col-lg-12 px-0 mt-3" },
+                      n.a.createElement(
+                        "a",
+                        { href: "", class: "card-link" },
+                        n.a.createElement(
+                          "div",
+                          { class: "card" },
+                          n.a.createElement(
+                            "div",
+                            { class: "card-body" },
+                            "View on Docs"
+                          )
+                        )
+                      )
+                    )
+                  ),
+                  n.a.createElement(
+                    "div",
+                    { className: "lead font-16 mt-5" },
+                    n.a.createElement(
+                      "a",
+                      {
+                        className: "btn section-btn px-2 py-2",
+                        href: "#",
+                        role: "button"
+                      },
+                      "Get free API key"
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          n.a.createElement(
+            "section",
+            { className: "brands" },
+            n.a.createElement(
+              "div",
+              { className: "container" },
+              n.a.createElement(
+                "div",
+                { className: "row mx-0" },
+                n.a.createElement(
+                  "div",
+                  { className: "col-sm-12 col-md-6 col-lg-6 pr-5 pl-0" },
+                  n.a.createElement(
+                    "div",
+                    { className: "header" },
+                    "Accepts payments the easy way"
+                  ),
+                  n.a.createElement(
+                    "p",
+                    { className: "subheader py-3" },
+                    "Is your website built on any of these platforms? Our large collections of plugins will let you integrate payments in under 10 minutes."
+                  )
+                ),
+                n.a.createElement(
+                  "div",
+                  {
+                    className: "col-sm-12 col-md-6 col-lg-6 row  mx-0 px-0 pt-3"
+                  },
+                  g.map(function(e) {
+                    return n.a.createElement(
+                      "div",
+                      {
+                        className: " col-xs-6 col-md-4 col-lg-4 col-sm-6 mx-0 "
+                      },
+                      n.a.createElement(
+                        "div",
+                        { className: "col-6 col-sm-4 col-md-2 mb-4 mb-md-0" },
+                        n.a.createElement("img", {
+                          src: "/images/".concat(e.logo),
+                          alt: "secure_payment",
+                          width: "150"
+                        })
+                      )
+                    );
+                  })
+                )
+              )
+            )
+          ),
+          n.a.createElement(
+            "section",
+            { className: "blogSection2 " },
+            n.a.createElement(
+              "div",
+              { className: "text-center " },
+              n.a.createElement(
+                "div",
+                { style: { width: "100%", margin: "auto" } },
+                n.a.createElement(
+                  "div",
+                  { className: "header" },
+                  "Get the SeerBit Edge."
+                ),
+                n.a.createElement(
+                  "div",
+                  { className: "subheader py-3" },
+                  "With SeerBit, you get all the flexibility that comes with an innovative ",
+                  n.a.createElement("br", null),
+                  " online payment gateway and the security of a PCI-DSS certified payment processor."
+                ),
+                n.a.createElement(
+                  "div",
+                  { className: "lead font-20 mt-4" },
+                  n.a.createElement(
+                    "a",
+                    {
+                      className: "btn hero-btn px-2 py-2",
+                      href: "#",
+                      role: "button"
+                    },
+                    "Get Started"
+                  ),
+                  n.a.createElement(
+                    "a",
+                    { href: "", className: "color283 ml-4 font-16" },
+                    "Talk to us ",
+                    n.a.createElement("img", {
+                      src: "/images/angleRight.svg",
+                      alt: ""
+                    })
+                  )
+                )
+              )
+            )
+          )
+        );
+      }
+      function F() {
+        return n.a.createElement(
           "div",
           { className: "container-fluid px-0 mx-0" },
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "sectionOne" },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "", style: { width: "100%", margin: "left" } },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "font-weight-bold font-35" },
                 "The SeerBit Blog Space"
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "font-16 py-5 ln-height-26" },
                 "Dive into the world of payment technology. Explore insights. And stay up to date with product and company news.",
                 " "
               ),
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "input-group mb-3" },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "input-group-prepend" },
-                  l.a.createElement("input", {
+                  n.a.createElement("input", {
                     type: "text",
                     placeholder: "Enter email address",
                     className: "inpbtn form-control py-4"
                   }),
-                  l.a.createElement(
+                  n.a.createElement(
                     "button",
                     {
                       className: "btn  btn-primary btn-inpbtn",
@@ -1917,73 +2305,73 @@
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "blog-list pb-5 mx-0" },
-            l.a.createElement(T, null),
-            l.a.createElement(
+            n.a.createElement(R, null),
+            n.a.createElement(
               "div",
               { className: "blog-list-div" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { className: "row px-0 mx-0" },
-                g.map(function(e) {
-                  return l.a.createElement(
+                h.map(function(e) {
+                  return n.a.createElement(
                     "div",
                     {
                       className:
                         "col-lg-4 col-sm-12 col-md-6 pb-5 pl-0 pr-5 blogdD mx-0"
                     },
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "imgDiv px-0 pb-4" },
-                      l.a.createElement("img", {
+                      n.a.createElement("img", {
                         src: "/images/".concat(e.logo),
                         alt: "secure_payment"
                       })
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "font-weight-bold font-20" },
                       e.title
                     ),
-                    l.a.createElement(
+                    n.a.createElement(
                       "div",
                       { className: "color283 font-15" },
-                      l.a.createElement("span", null, e.date, " | "),
+                      n.a.createElement("span", null, e.date, " | "),
                       " ",
-                      l.a.createElement("span", null, e.read)
+                      n.a.createElement("span", null, e.read)
                     )
                   );
                 })
               )
             )
           ),
-          l.a.createElement(
+          n.a.createElement(
             "section",
             { className: "blogSection2 " },
-            l.a.createElement(
+            n.a.createElement(
               "div",
               { className: "text-center" },
-              l.a.createElement(
+              n.a.createElement(
                 "div",
                 { style: { width: "100%", margin: "auto" } },
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "gray1 font-weight-bold font-35" },
                   "Get the SeerBit Edge."
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "gray2 py-3 font-18" },
                   "With SeerBit, you get all the flexibility that comes with an innovative ",
-                  l.a.createElement("br", null),
+                  n.a.createElement("br", null),
                   " online payment gateway and the security of a PCI-DSS certified payment processor."
                 ),
-                l.a.createElement(
+                n.a.createElement(
                   "div",
                   { className: "lead font-20 mt-4" },
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     {
                       className: "btn btn-primary btn-lg px-5 py-3",
@@ -1992,11 +2380,11 @@
                     },
                     "Get Started"
                   ),
-                  l.a.createElement(
+                  n.a.createElement(
                     "a",
                     { href: "", className: "color283 ml-4 font-16" },
                     "Talk to us ",
-                    l.a.createElement("img", {
+                    n.a.createElement("img", {
                       src: "/images/angleRight.svg",
                       alt: ""
                     })
@@ -2008,33 +2396,34 @@
         );
       }
       t(52);
-      var L = function() {
-        return l.a.createElement(
-          n.Fragment,
+      var W = function() {
+        return n.a.createElement(
+          l.Fragment,
           null,
-          l.a.createElement(N, null),
-          l.a.createElement(
+          n.a.createElement(x, null),
+          n.a.createElement(
             c.c,
             null,
-            l.a.createElement(c.a, { exact: !0, path: "/", component: p }),
-            l.a.createElement(c.a, { path: "/features", component: m }),
-            l.a.createElement(c.a, { path: "/login", component: A }),
-            l.a.createElement(c.a, { path: "/pricing", component: f }),
-            l.a.createElement(c.a, { path: "/features", component: m }),
-            l.a.createElement(c.a, { path: "/resources", component: P }),
-            l.a.createElement(c.a, { path: "/support", component: R }),
-            l.a.createElement(c.a, {
+            n.a.createElement(c.a, { exact: !0, path: "/", component: E }),
+            n.a.createElement(c.a, { path: "/features", component: m }),
+            n.a.createElement(c.a, { path: "/login", component: I }),
+            n.a.createElement(c.a, { path: "/pricing", component: N }),
+            n.a.createElement(c.a, { path: "/features", component: m }),
+            n.a.createElement(c.a, { path: "/resources", component: T }),
+            n.a.createElement(c.a, { path: "/support", component: B }),
+            n.a.createElement(c.a, { path: "/developers", component: L }),
+            n.a.createElement(c.a, {
               path: "/blog/Paymet_Experiences_For_Travels_And_Tourism_Business",
-              component: B
+              component: D
             }),
-            l.a.createElement(c.a, {
+            n.a.createElement(c.a, {
               path: "/blog/Streamlining_Payments_for_Resturants",
-              component: I
+              component: C
             }),
-            l.a.createElement(c.a, { path: "/blog", component: D }),
-            l.a.createElement(c.a, { path: "/contact-us", component: C })
+            n.a.createElement(c.a, { path: "/blog", component: F }),
+            n.a.createElement(c.a, { path: "/contact-us", component: G })
           ),
-          l.a.createElement(_, null)
+          n.a.createElement(A, null)
         );
       };
       Boolean(
@@ -2045,7 +2434,7 @@
           )
       );
       r.a.render(
-        l.a.createElement(S.a, null, l.a.createElement(L, null)),
+        n.a.createElement(P.a, null, n.a.createElement(W, null)),
         document.getElementById("root")
       ),
         "serviceWorker" in navigator &&
@@ -2056,4 +2445,4 @@
   },
   [[36, 1, 2]]
 ]);
-//# sourceMappingURL=main.3a290075.chunk.js.map
+//# sourceMappingURL=main.77826eab.chunk.js.map

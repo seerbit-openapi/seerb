@@ -479,6 +479,36 @@ html {
   background-color: #354885 !important;
   border-color: #354885 !important;
 }
+.contact-btn {
+  background-color: #283c7c !important;
+  border-color: #283c7c !important;
+}
+.contact-btn,
+.contact-btn:hover {
+  width: 100%;
+  height: 40px;
+  font-size: 13px;
+  color: #fff;
+}
+.contact-btn:hover {
+  background-color: #354885 !important;
+  border-color: #354885 !important;
+}
+.section-btn {
+  background-color: #283c7c !important;
+  border-color: #283c7c !important;
+}
+.section-btn,
+.section-btn:hover {
+  width: 35%;
+  height: 39px;
+  font-size: 13px;
+  color: #fff;
+}
+.section-btn:hover {
+  background-color: #354885 !important;
+  border-color: #354885 !important;
+}
 .talk-to-us {
   font-size: 14px;
   font-weight: 500;
@@ -606,4 +636,77 @@ section {
   height: 50px;
   border-radius: 5px;
 }
-/*# sourceMappingURL=main.a6abf24d.chunk.css.map */
+.mt-md-5 {
+  margin-top: 7rem;
+}
+.developers-header {
+  background-color: #fff;
+  padding: 0 6% 1% !important;
+}
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xs,
+.container-xxl {
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.story-content .story-header {
+  margin-top: 72px;
+  margin-bottom: 48px;
+}
+.inner-container {
+  margin: 0 auto;
+  max-width: 1248px;
+  padding-right: 24px;
+  padding-left: 24px;
+  width: 100%;
+}
+.position-relative {
+  position: relative !important;
+}
+.story-content .story-header.story-header--left .story-header__image-wrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.story-content
+  .story-header.story-header--left
+  .story-header__image-wrapper
+  .story-header__image {
+  height: 100%;
+  z-index: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.story-content .story-header.story-header--left .story-header__info-wrapper {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: #fff;
+}
+.story-content .story-category-name {
+  color: #0abf53;
+  font-weight: 600;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.developers-description,
+.white-space {
+  background-color: #fff;
+}
+.card-link {
+  color: #000;
+}
+.card-link:hover {
+  color: #3d98f0;
+  box-shadow: 0 2px 22px 0 rgba(130, 144, 161, 0.13) !important;
+}
+/*# sourceMappingURL=main.959389c1.chunk.css.map */
