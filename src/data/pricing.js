@@ -66,7 +66,7 @@ export const faqs = [
     id: 3
   },
   {
-    question: "Do i get a test environment after signup?",
+    question: "Do I get a test environment after signup?",
     ans: "Yes you do",
     id: 4
   },

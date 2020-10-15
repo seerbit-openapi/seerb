@@ -1,6 +1,6 @@
 import React from "react";
 import { blogs } from "../data/pricing";
-import { devs, brands, easy, features, security } from "../data/home";
+import { devs, brands, easy, features, security, next } from "../data/home";
 // import "../styles/blog.css";
 export default function Developers() {
   return (
@@ -105,7 +105,7 @@ export default function Developers() {
                 Simple & Secure Integrations
               </div>
               <p className="subheader py-3">
-                Our SDKs, libraries and plugins are designed in such way that
+                Our SDKs, libraries and plugins are designed in such a way that
                 they are easy to customise, and play nice with any design. All
                 SDKs, libraries and plugins are PCI compliant, so you don’t have
                 to worry about security.
@@ -164,7 +164,7 @@ export default function Developers() {
           <hr className="mt-5 mb-0" />
         </div>
       </section>
-      <section className="intro">
+      <section className="security">
         <div className="container">
           <div className=" col-lg-5 col-md-6 col-sm-12 px-0">
             <div className="header">
@@ -190,21 +190,32 @@ export default function Developers() {
           </div>
         </div>
       </section>
-      <section className="blogSection2 ">
-        <div className="text-center ">
-          <div style={{ width: "100%", margin: "auto" }}>
-            <div className="header">Get the SeerBit Edge.</div>
-            <div className="subheader py-3">
-              With SeerBit, you get all the flexibility that comes with an
-              innovative <br /> online payment gateway and the security of a
-              PCI-DSS certified payment processor.
-            </div>
-            <div className="lead font-20 mt-4">
-              <a className="btn hero-btn px-2 py-2" href="#" role="button">
+      <section className="next-steps">
+        <div className="container">
+          <div className=" col-lg-5 col-md-6 col-sm-12 px-0">
+            <div className="header">Next Steps?</div>
+          </div>
+          <div className="py-3 row mx-0 ">
+            {next.map(data => (
+              <div className="col-sm-12 col-md-6 col-lg-3 pl-0 pr-5">
+                <div className="px-0 mx-0">
+                  <img
+                    src={`/images/${data.logo}`}
+                    alt="secure_payment"
+                    width="50"
+                  />
+                </div>
+                <div className="features-title py-3">{data.title}</div>
+                <div className="features-body font-16">
+                  {data.short_description}
+                </div>
+              </div>
+            ))}{" "}
+          </div>
+          <div className="row mx-0">
+            <div className="">
+              <a className="btn hero-btn px-2 py-2 mt-5" href="#" role="button">
                 Get Started
-              </a>
-              <a href="" className="color283 ml-4 font-16">
-                Talk to us <img src={`/images/angleRight.svg`} alt="" />
               </a>
             </div>
           </div>

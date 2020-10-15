@@ -3,7 +3,7 @@ export const features = [
     id: 1,
     logo: "secure_payment.svg",
     title: "Secure Payment",
-    link: "",
+    link: "./risk",
     linkname: "Risk and Compliance",
     short_description:
       "Our intuitive risk assessment proactively blocks fraudulent transactions, reducing fraud-related chargebacks for you. Our secure SDKs tokenize card payments to protect users."
@@ -23,7 +23,7 @@ export const features = [
     title: "Customised for You",
 
     linkname: "Learn more multiple payment options",
-    link: "https://google.com",
+    link: "./payment-method",
     short_description:
       "We tailor our payment solutions to the specifics of your business, so you can reach every single customer and expand into new markets"
   }
@@ -103,7 +103,7 @@ export const studies = [
     images: "payResturants.svg",
     title: "Streamlining Payments for Resturants",
     short_description:
-      "As the dinning scene in restaurants is changing, restaurant owners are looking for ways to increase efficiency and customer service experience by offering seamless payment options for its customers.",
+      "As the dining scene in restaurants is changing, restaurant owners are looking for ways to increase efficiency and customer service experience by offering seamless payment options for its customers.",
     link: "/blog/Streamlining_Payments_for_Resturants",
     linkname: "Read case study"
   }
@@ -180,5 +180,37 @@ export const security = [
 
     short_description:
       "We take on the burden of PCI compliance, which means you don’t have to worry about external audits or data breach fines."
+  }
+];
+
+export const next = [
+  {
+    id: 1,
+    logo: "num1.svg",
+    title: "Create an account",
+
+    short_description: "Create a free account and select integration type."
+  },
+  {
+    id: 2,
+    logo: "num2.svg",
+    title: "Set-up",
+
+    short_description:
+      "Complete the onboarding process and apply for a live account."
+  },
+  {
+    id: 3,
+    logo: "num3.svg",
+    title: "Configuration",
+
+    short_description: "Configure your account to your preferences."
+  },
+  {
+    id: 4,
+    logo: "num4.svg",
+    title: "Go live",
+
+    short_description: "Start accepting payments with SeerBit."
   }
 ];

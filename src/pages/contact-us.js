@@ -15,9 +15,9 @@ export default function Contact_us() {
                 <p>
                   We'd love to hear about your business, and where you're
                   headed. Please provide any information or ask questions about
-                  how SeerBit can help grow your business. Please fill in the
-                  form provided on this page and we’ll get back to you as soon
-                  as possible.
+                  how SeerBit can help grow your business. Fill in the form
+                  provided on this page and we’ll get back to you as soon as
+                  possible.
                 </p>
                 <p>
                   {" "}

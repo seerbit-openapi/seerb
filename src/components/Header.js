@@ -27,7 +27,7 @@ export default function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav
-          className="mr-auto text-left  navmargin"
+          className="mr-auto text-left navmargin"
           style={{
             marginLeft: "5%"
           }}

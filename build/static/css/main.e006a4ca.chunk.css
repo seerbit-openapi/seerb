@@ -168,11 +168,17 @@
 .intro {
   padding: 7% 5% 7% 6%;
 }
-.brands,
-.intro {
+.intro,
+.security {
   background-color: #fff;
 }
+.security {
+  padding-bottom: 7%;
+  padding-left: 6%;
+  padding-right: 5%;
+}
 .brands {
+  background-color: #fff;
   padding: 6% 3% 6% 6%;
 }
 .headIntro {
@@ -539,27 +545,38 @@ html {
   }
 }
 .header {
+  font-size: 32px;
+}
+.header,
+.terms {
   font-family: FaktPro-SemiBold;
   line-height: 50px;
   color: #00112c;
   font-style: normal;
-  font-size: 32px;
+}
+.terms {
+  font-size: 20px;
 }
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
 .nav-link {
-  font-family: FaktPro-Blond;
+  font-family: FaktPro-Normal;
   font-size: 16px;
   color: #00112c;
+  margin-left: 1.25rem;
 }
-.subheader {
+.subheader,
+.terms-sub {
   font-family: FaktPro-Normal;
   font-style: normal;
   color: #00112c;
   line-height: 30px;
   font-size: 18px;
+}
+.terms-sub {
+  text-align: justify;
 }
 .font-35 {
   font-size: 2.2rem;
@@ -709,4 +726,8 @@ section {
   color: #3d98f0;
   box-shadow: 0 2px 22px 0 rgba(130, 144, 161, 0.13) !important;
 }
-/*# sourceMappingURL=main.959389c1.chunk.css.map */
+.next-steps {
+  background-color: #f0f2f7;
+  padding: 7% 5% 7% 6%;
+}
+/*# sourceMappingURL=main.e006a4ca.chunk.css.map */

@@ -213,6 +213,13 @@ a:hover {
   font-style: normal;
   font-size: 32px;
 }
+.terms {
+  font-family: FaktPro-SemiBold;
+  line-height: 50px;
+  color: #00112c;
+  font-style: normal;
+  font-size: 20px;
+}
 
 .img-fluid {
   max-width: 100%;
@@ -220,9 +227,10 @@ a:hover {
 }
 
 .nav-link {
-  font-family: FaktPro-Blond;
+  font-family: FaktPro-Normal;
   font-size: 16px;
   color: #00112c;
+  margin-left: 1.25rem;
 }
 
 .subheader {
@@ -232,7 +240,14 @@ a:hover {
   line-height: 30px;
   font-size: 18px;
 }
-
+.terms-sub {
+  font-family: FaktPro-Normal;
+  font-style: normal;
+  color: #00112c;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: justify;
+}
 .font-35 {
   font-size: 2.2rem;
 }
@@ -402,4 +417,12 @@ section {
   color: #3d98f0;
 
   box-shadow: 0 2px 22px 0 rgba(130, 144, 161, 0.13) !important;
+}
+
+.next-steps {
+  background-color: #f0f2f7;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 6%;
+  padding-right: 5%;
 }

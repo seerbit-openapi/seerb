@@ -14,14 +14,14 @@ export default function Footer() {
               <li className="footerlist">
                 <Link to={"./"}>About</Link>
               </li>
-              <li className="footerlist">
+              {/*} <li className="footerlist">
                 <Link to={"./"}>Careers</Link>
+  </li>*/}
+              <li className="footerlist">
+                <Link to={"./blog"}>Blog</Link>
               </li>
               <li className="footerlist">
-                <Link to={"./"}>Blog</Link>
-              </li>
-              <li className="footerlist">
-                <Link to={"./"}>Contact</Link>
+                <Link to={"./contact-us"}>Contact</Link>
               </li>
             </ul>
           </Col>
@@ -29,10 +29,10 @@ export default function Footer() {
             <div className="mb-3 font-weight-bold">Features</div>
             <ul className="list-unstyled text-small">
               <li className="footerlist">
-                <Link to={"./"}>Pricing</Link>
+                <Link to={"./pricing"}>Pricing</Link>
               </li>
               <li className="footerlist">
-                <Link to={"./"}>Payment Methods</Link>
+                <Link to={"./payment-method"}>Payment Methods</Link>
               </li>
               <li className="footerlist">
                 <Link to={"./"}>Libraries & Plugins</Link>
@@ -57,9 +57,9 @@ export default function Footer() {
               <li className="footerlist">
                 <Link to={"./"}>Documentation</Link>
               </li>
-              <li className="footerlist">
+              {/*<li className="footerlist">
                 <Link to={"./"}>API Reference</Link>
-              </li>
+  </li>*/}
               <li className="footerlist">
                 <Link to={"./"}>Support</Link>
               </li>
@@ -72,23 +72,23 @@ export default function Footer() {
             <div className="mb-3 font-weight-bold">Platform</div>
             <ul className="list-unstyled text-small">
               <li className="footerlist">
-                <Link to={"./"}>Privacy</Link>
+                <Link to={"./privacy"}>Privacy</Link>
               </li>
               <li className="footerlist">
-                <Link to={"./"}>Terms of service</Link>
+                <Link to={"./terms-of-service"}>Terms of service</Link>
               </li>
               <li className="footerlist">
-                <Link to={"./"}>Top Level Security</Link>
+                <Link to={"./Security"}>Top Level Security</Link>
               </li>
               <li className=" footerlist">
-                <Link to={"./"}>Risk Management</Link>
+                <Link to={"./risk"}>Risk Management</Link>
               </li>
               <li className=" footerlist">
-                <Link to={"./"}>Fraud Prevention</Link>
+                <Link to={"./risk"}>Fraud Prevention</Link>
               </li>
-              <li className="footerlist">
+              {/*<li className="footerlist">
                 <Link to={"/blog"}>Blog</Link>
-              </li>
+</li>*/}
             </ul>
           </Col>
           <Col xs={12} sm={12} md={4} lg={4}>

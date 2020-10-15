@@ -11,10 +11,16 @@ import {
   Streamlining_Payments_for_Resturants,
   Blog,
   Developers,
-  Contact_us
+  Contact_us,
+  Terms_of_service,
+  Privacy_statement,
+  Security,
+  Risk,
+  Payment_method
 } from "./pages";
 import "./styles/App.css";
 import { Header, Footer } from "./components";
+import terms_of_service from "./pages/terms-of-service";
 // import TestHome from "./testHome";
 export default () => {
   return (
@@ -39,6 +45,11 @@ export default () => {
         />
         <Route path="/blog" component={Blog} />
         <Route path="/contact-us" component={Contact_us} />
+        <Route path="/terms-of-service" component={Terms_of_service} />
+        <Route path="/privacy" component={Privacy_statement} />
+        <Route path="/security" component={Security} />
+        <Route path="/risk" component={Risk} />
+        <Route path="/payment-method" component={Payment_method} />
       </Switch>
       <Footer />
     </Fragment>

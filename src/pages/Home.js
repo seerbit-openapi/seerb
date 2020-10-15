@@ -129,9 +129,9 @@ export default function Home() {
                 Get a full view of your business at a glance.
               </div>
               <p className="subheader py-3">
-                We've designed our platform to allow you to see all payments
-                across multiple channels on a single dashboard. It's never been
-                so easy to track performance, optimize and grow.
+                We've designed our platform to allow you see all payments across
+                multiple channels on a single dashboard. It's never been so easy
+                to track performance, optimize and grow.
               </p>
               <div className="row mx-0">
                 {products.map(data => (
