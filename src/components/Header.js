@@ -29,7 +29,7 @@ export default function Header() {
         <Nav
           className="mr-auto text-left navmargin"
           style={{
-            marginLeft: "5%"
+            marginLeft: "2%"
           }}
         >
           <Nav.Link href="/">Home</Nav.Link>
