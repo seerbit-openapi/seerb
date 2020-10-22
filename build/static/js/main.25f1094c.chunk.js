@@ -1086,7 +1086,6 @@
                 style: { marginLeft: "2%" }
               },
               s.a.createElement(k.a.Link, { href: "/" }, "Home"),
-              s.a.createElement(k.a.Link, { href: "/features" }, "Features"),
               s.a.createElement(k.a.Link, { href: "/pricing" }, "Pricing"),
               s.a.createElement(
                 k.a.Link,
@@ -1800,7 +1799,6 @@
                     s.a.createElement(
                       "p",
                       null,
-                      " ",
                       " ",
                       "Alternatively you can",
                       " ",
@@ -3440,4 +3438,4 @@
   },
   [[38, 1, 2]]
 ]);
-//# sourceMappingURL=main.dc9cbea8.chunk.js.map
+//# sourceMappingURL=main.25f1094c.chunk.js.map
