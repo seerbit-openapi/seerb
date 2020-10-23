@@ -29,11 +29,11 @@ export default function Header() {
         <Nav
           className="mr-auto text-left navmargin"
           style={{
-            marginLeft: "5%"
+            marginLeft: "2%"
           }}
         >
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/features">Features</Nav.Link>
+          {/*<Nav.Link href="/features">Features</Nav.Link>*/}
           <Nav.Link href="/pricing">Pricing</Nav.Link>
           <Nav.Link href="/developers">Developers</Nav.Link>
           <Nav.Link href="/support">Support</Nav.Link>

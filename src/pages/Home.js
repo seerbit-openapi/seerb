@@ -122,7 +122,10 @@ export default function Home() {
         <div className="container">
           <div className="row mx-0">
             <div className="col-sm-12 col-md-6 col-lg-6 pl-0 pr-5 bizfullviewImg">
-              <img src={`/images/bizfullview.svg`} className="responsive" />
+              <img
+                src={`https://res.cloudinary.com/dujvz1dsa/image/upload/v1603109007/seerbit/bizfullview_dvk4pb.jpg`}
+                className="responsive"
+              />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6 my-auto pr-0 pl-0">
               <div className="header font-35 mt-3">

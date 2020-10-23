@@ -6,12 +6,14 @@ export default function Blog() {
   return (
     <div className="container-fluid px-0 mx-0">
       <section className="sectionOne">
-        <div className="" style={{ width: "100%", margin: "left" }}>
-          <div className="font-weight-bold font-35">The SeerBit Blog Space</div>
-          <div className="font-16 py-5 ln-height-26">
-            Dive into the world of payment technology. Explore insights. And
-            stay up to date with product and company news.{" "}
+        <div className="col-md-6" style={{ width: "100%", margin: "left" }}>
+          <div className="hero-header" style={{ marginTop: "7rem" }}>
+            The SeerBit Blog Space
           </div>
+          <p className="subheader py-3">
+            Dive into the world of payment technology. Explore insights and stay
+            up to date with product and company news.{" "}
+          </p>
           <div className="input-group mb-3">
             <div className="input-group-prepend">
               <input

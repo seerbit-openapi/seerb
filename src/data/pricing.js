@@ -1,48 +1,16 @@
 export const blogs = [
   {
     id: 1,
-    logo: "3dsecure.svg",
-    title: "3D Secure Authentication",
+    logo: "hospital.svg",
+    title: "PAYMENT EXPERIENCES FOR TRAVELS AND TOURISM BUSINESSES",
     link: "",
     date: "August 17, 2020",
     read: "4 mins read "
   },
   {
     id: 2,
-    logo: "chargebackblog.svg",
-    title: "Thriving in a chargeback world",
-    link: "",
-    date: "August 17, 2020",
-    read: "4 mins read "
-  },
-  {
-    id: 3,
-    logo: "resturantpay.svg",
+    logo: "resturant.svg",
     title: "Streamlining Payments for Resturants",
-    link: "",
-    date: "August 17, 2020",
-    read: "4 mins read "
-  },
-  {
-    id: 4,
-    logo: "chargebackblog.svg",
-    title: "Thriving in a chargeback world",
-    link: "",
-    date: "August 17, 2020",
-    read: "4 mins read "
-  },
-  {
-    id: 5,
-    logo: "resturantpay.svg",
-    title: "Streamlining Payments for Resturants",
-    link: "",
-    date: "August 17, 2020",
-    read: "4 mins read "
-  },
-  {
-    id: 6,
-    logo: "3dsecure.svg",
-    title: "3D Secure Authentication",
     link: "",
     date: "August 17, 2020",
     read: "4 mins read "
